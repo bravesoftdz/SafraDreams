@@ -11,7 +11,7 @@ No Safra Dreams você abre a sua conta com a ajuda do nosso dreamy bot e já pod
 Segurança é importante para a gente, um dreamer só poderá sacar todo o dinheiro do sonho compartilhado se todos os outros dreamers aprovarem a operação no aplicativo com a suas senhas pessoais. Caso algum dos dreamers desista da iniciativa ele pode retirar a sua parte aplicada a qualquer momento e todos os demais serão notificados da desistência. 
 
 <p align="center">
-  Safra dreams, porque sonhar junto é sonhar mais!
+  Safra dreams, porque sonhar junto é sonhar mais!<br />
   <img src = "https://user-images.githubusercontent.com/7032799/93025272-e7da4480-f5d2-11ea-9280-cace7cb3f390.png" width='40' height="50" />
 </p>
 
