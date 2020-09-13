@@ -20,7 +20,7 @@ Segurança é importante para a gente, um dreamer só poderá sacar todo o dinhe
 Tabela de conteúdo
 ==================
 <!--ts-->
-  - [Getting Started](#getting-started)
+  - [O Projeto](#getting-started)
   - [Pré-requisitos](#pre-requisitos)
   - [Roadmap](#roadmap)
   - [Tecnologias](#tecnologias)
@@ -33,7 +33,7 @@ Tabela de conteúdo
   - [Autores](#autores)
 <!--te-->
 
-## Getting Started
+## O Projeto
 
 ## Pré-requisitos
 - Sistema operacional Windows, Linux ou macOS
