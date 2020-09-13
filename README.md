@@ -1,1 +1,3 @@
 # SafraDreams
+
+## Aspectos técnicos
