@@ -27,7 +27,7 @@ Tabela de conteúdo
 <img src = "https://user-images.githubusercontent.com/7032799/93027292-4b1fa300-f5e2-11ea-99b2-1f85e8606bc3.JPG" >
 <img src = "https://user-images.githubusercontent.com/7032799/93027348-828e4f80-f5e2-11ea-8ddc-7d48d3d448da.JPG">
 <img src = "https://user-images.githubusercontent.com/7032799/93027383-bff2dd00-f5e2-11ea-86e4-5b3ecb97edf6.JPG">
-<img src = "https://user-images.githubusercontent.com/7032799/93027415-fd576a80-f5e2-11ea-9e51-0060b5815a11.png">
+<img src = "https://user-images.githubusercontent.com/7032799/93027601-5d9adc00-f5e4-11ea-9025-5162f4875f77.png">
 
 # Tecnologias
 
