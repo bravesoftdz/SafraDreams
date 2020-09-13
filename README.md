@@ -18,20 +18,19 @@ Tabela de conteúdo
   * [Autores](#autores)
 <!--te-->
 
-<a name = "objetivo"/> 
 # Objetivo 
 
-<a name = "roadmap"/> 
+
 # Roadmap 
 
-<a name = "tecnologias"/> 
+
 # Tecnologias
 
-<a name = "contribuicao"/> 
+
 # Contribuição 
 
-<a name = "further-information"/> 
+
 # Para Mais Informações
 
-<a name = "autores"/> 
+
 # Autores
