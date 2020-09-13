@@ -34,7 +34,10 @@ Tabela de conteúdo
 <!--te-->
 
 ## O Projeto
-Safra Dreams é um projeto que foi desenvolvido durante o hackaton do processo seletivo Programa Technee Banco Safra 2020.
+Safra Dreams é um projeto que foi desenvolvido durante o hackaton do processo seletivo Programa Technee Banco Safra 2020, cujo desafio proposto foi "Como podemos inovar e nos diferenciar criando experiência simples, transparente e instantâneas para os nossos clientes e parceiros, com soluções digitais disruptivas em cenários de crescimento exponencial?"
+Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a possibilidade de compartilhar sonhos com outras pessoas de forma personalizada, segura e pratica. 
+
+### *Safra Dreams, porque sonhar juntos é sonhar mais*
 
 ## Pré-requisitos
 - Sistema operacional Windows, Linux ou macOS
