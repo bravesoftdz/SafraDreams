@@ -1,4 +1,4 @@
-# Equipe 30 - Safra Dreams <img src = "https://user-images.githubusercontent.com/7032799/93025272-e7da4480-f5d2-11ea-9280-cace7cb3f390.png" width='147' height="160" align="right"/>
+# Safra Dreams <img src = "https://user-images.githubusercontent.com/7032799/93025272-e7da4480-f5d2-11ea-9280-cace7cb3f390.png" width='147' height="160" align="right"/>
 
 ![Badge](https://img.shields.io/github/issues/douglasakassaka/SafraDreams)
 <img src= "https://img.shields.io/github/forks/douglasakassaka/SafraDreams"/>
@@ -7,24 +7,26 @@
 
 > Descrever aqui o projeto
 
-
 Tabela de conteúdo
 ==================
 <!--ts-->
-  * [Descrição](#descricao)
+  * [Sobre](#sobre)
   * [Tabela de Conteudo](#tabela-de-conteudo)
   * [Roadmap](#roadmap)
   * [Tecnologias](#tecnologias)
   * [Contribuição](#contribuicao)
+  * [Para Mais Informações](#further-information)
   * [Autores](#autores)
 <!--te-->
 
-<h1 align="left">Objetivo </a></h1>
+# Objetivo
 
-<h1 align="left">Roadmap </a></h1>
+# Roadmap 
 
-<h1 align="left">Tecnologias </a></h1>
+# Tecnologias
 
-<h1 align="left">Contribuição </a></h1>
+# Contribuição 
 
-<h1 align="left">Autores </a></h1>
+# Para Mais Informações
+
+# Autores
