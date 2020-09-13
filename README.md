@@ -13,16 +13,12 @@ Segurança é importante para a gente, um dreamer só poderá sacar todo o dinhe
 Tabela de conteúdo
 ==================
 <!--ts-->
-  * [Objetivo](#objetivo)
   * [Roadmap](#roadmap)
   * [Tecnologias](#tecnologias)
   * [Contribuição](#contribuicao)
   * [Para Mais Informações](#further-information)
   * [Autores](#autores)
 <!--te-->
-
-# Objetivo 
-
 
 # Roadmap 
 
