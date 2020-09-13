@@ -20,9 +20,9 @@ Tabela de conteúdo
   * [Autores](#autores)
 <!--te-->
 
-# Roadmap 
+## Roadmap 
 
-# Tecnologias
+## Tecnologias
 
 <img src = "https://user-images.githubusercontent.com/7032799/93026808-2118b180-f5df-11ea-8426-0488d3a495a8.jpg" />
 <img src = "https://user-images.githubusercontent.com/7032799/93027292-4b1fa300-f5e2-11ea-99b2-1f85e8606bc3.JPG" />
@@ -30,12 +30,12 @@ Tabela de conteúdo
 <img src = "https://user-images.githubusercontent.com/7032799/93027383-bff2dd00-f5e2-11ea-86e4-5b3ecb97edf6.JPG" />
 <img src = "https://user-images.githubusercontent.com/7032799/93027601-5d9adc00-f5e4-11ea-9025-5162f4875f77.png" />
 
-# Contribuição 
+## Contribuição 
 
 
-# Para Mais Informações
+## Para Mais Informações
 
 
-# Autores
+## Autores
 
 
