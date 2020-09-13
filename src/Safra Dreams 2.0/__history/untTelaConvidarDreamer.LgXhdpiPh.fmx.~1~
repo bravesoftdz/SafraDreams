@@ -1,0 +1,33 @@
+inherited frmTelaConvidarDreamer_LgXhdpiPh: TfrmTelaConvidarDreamer_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited Edit1: TEdit
+    Size.Width = 263.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited CornerButton1: TCornerButton
+    Position.X = 42.000000000000000000
+    Position.Y = 204.000000000000000000
+    Size.Width = 229.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited CornerButton2: TCornerButton
+    Position.X = 44.000000000000000000
+    Position.Y = 266.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    Size.Height = 48.000000000000000000
+    inherited Label2: TLabel
+      Size.Width = 450.000000000000000000
+      Size.Height = 48.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end

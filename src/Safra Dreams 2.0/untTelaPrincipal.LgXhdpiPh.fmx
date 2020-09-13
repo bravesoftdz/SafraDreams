@@ -1,0 +1,95 @@
+inherited frmTelaPrincipal_LgXhdpiPh: TfrmTelaPrincipal_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  OnClose = FormClose
+  DesignerMasterStyle = 0
+  inherited TopToolBar: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited ToolBarLabel: TLabel
+      Size.Width = 450.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited tbCtrlPrincipal: TTabControl
+    Size.Width = 450.000000000000000000
+    Size.Height = 599.000000000000000000
+    Sizes = (
+      450s
+      599s
+      450s
+      599s
+      450s
+      599s)
+    inherited tbItemDadosConta: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Image2: TImage
+        MultiResBitmap.Height = 200
+        MultiResBitmap.Width = 700
+      end
+      inherited imgFundoDadosConta: TImage
+        MultiResBitmap.Height = 200
+        MultiResBitmap.Width = 700
+      end
+      inherited btnMostrarOcultarSaldo: TSpeedButton
+        Size.Height = 48.000000000000000000
+      end
+    end
+    inherited tbItemFundos: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Chart3D1: TChart3D
+        inherited Chart3DChart1: TChart
+          Foot.Font.StyleExt = {00040000000200000004000000}
+          Legend.Title.Font.StyleExt = {00070000000000000004000000}
+          SubFoot.Font.StyleExt = {00040000000200000004000000}
+        end
+      end
+      inherited StringGrid1: TStringGrid
+        Size.Width = 343.000000000000000000
+        Size.Height = 309.000000000000000000
+        OnSelectCell = StringGrid1SelectCell
+        Viewport.Width = 343.000000000000000000
+        Viewport.Height = 309.000000000000000000
+        inherited StringColumn1: TStringColumn
+          ReadOnly = True
+        end
+      end
+      inherited SpeedButton1: TSpeedButton
+        Position.Y = 321.000000000000000000
+        Size.Width = 135.000000000000000000
+        Size.Height = 48.000000000000000000
+        Text = 'Criar Sonho'
+      end
+    end
+    inherited tbItemServicos: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Image1: TImage
+        MultiResBitmap.Height = 602
+        MultiResBitmap.Width = 404
+        Position.X = 32.000000000000000000
+        Size.Width = 307.000000000000000000
+        Size.Height = 479.000000000000000000
+      end
+      inherited btnAtendimentoSafra: TCornerButton
+        Position.X = 100.000000000000000000
+        Position.Y = 495.000000000000000000
+        Size.Width = 179.000000000000000000
+        Size.Height = 46.000000000000000000
+      end
+    end
+  end
+  inherited BottomToolBar: TToolBar
+    Position.Y = 647.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited btnProximaTab: TSpeedButton
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+    end
+    inherited btnAnteriorTab: TSpeedButton
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+    end
+  end
+end

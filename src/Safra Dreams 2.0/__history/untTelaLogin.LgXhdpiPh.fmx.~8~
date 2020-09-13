@@ -1,0 +1,12 @@
+inherited frmTelaLogin_LgXhdpiPh: TfrmTelaLogin_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited TopToolBar: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited ToolBarLabel: TLabel
+      Size.Width = 450.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end

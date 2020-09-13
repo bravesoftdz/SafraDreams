@@ -1,0 +1,22 @@
+inherited frmTelaInicial_LgXhdpiPh: TfrmTelaInicial_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  FullScreen = True
+  DesignerMasterStyle = 0
+  inherited layoutFundo: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited imgFundo: TImage
+      MultiResBitmap.Height = 1036
+      MultiResBitmap.Width = 676
+      Size.Width = 550.000000000000000000
+      Size.Height = 795.000000000000000000
+    end
+    inherited btnAbrirConta: TCornerButton
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited btnAcessarConta: TCornerButton
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end

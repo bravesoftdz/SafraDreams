@@ -1,0 +1,17 @@
+inherited Form1_LgXhdpiTb: TForm1_LgXhdpiTb
+  ClientHeight = 829
+  ClientWidth = 480
+  DesignerMasterStyle = 0
+  inherited Image1: TImage
+    MultiResBitmap.Height = 1036
+    MultiResBitmap.Width = 676
+    Size.Width = 580.000000000000000000
+    Size.Height = 929.000000000000000000
+  end
+  inherited btnAbrirConta: TCornerButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited btnAcessarConta: TCornerButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+end

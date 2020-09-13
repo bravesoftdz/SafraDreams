@@ -1,0 +1,73 @@
+unit untClasseIntegracaoAPI;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, IPPeerClient, REST.Client,
+  Data.Bind.Components, Data.Bind.ObjectScope, FMX.Edit, FMX.ScrollBox, FMX.Memo,
+  FMX.Controls.Presentation, FMX.StdCtrls, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
+  Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client, REST.Response.Adapter;
+
+type
+  TForm3 = class(TForm)
+    restRequestAuth: TRESTRequest;
+    restClientAuth: TRESTClient;
+    Button1: TButton;
+    Memo1: TMemo;
+    Edit1: TEdit;
+    RESTResponseDataSetAdapter1: TRESTResponseDataSetAdapter;
+    RESTResponse1: TRESTResponse;
+    FDMemTable1: TFDMemTable;
+    FDMemTable1access_token: TWideStringField;
+    FDMemTable1token_type: TWideStringField;
+    FDMemTable1expires_in: TWideStringField;
+    RESTClient1: TRESTClient;
+    RESTRequest1: TRESTRequest;
+    RESTResponse2: TRESTResponse;
+    RESTResponseDataSetAdapter2: TRESTResponseDataSetAdapter;
+    FDMemTable2: TFDMemTable;
+    Memo2: TMemo;
+    FDMemTable2AccountId: TWideStringField;
+    FDMemTable2Currency: TWideStringField;
+    FDMemTable2Nickname: TWideStringField;
+    FDMemTable2Account: TWideStringField;
+    FDMemTable2AccountSchemeName: TWideStringField;
+    FDMemTable2AccountIdentification: TWideStringField;
+    FDMemTable2AccountName: TWideStringField;
+    FDMemTable2AccountSecondaryIdentification: TWideStringField;
+    Button2: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.fmx}
+
+procedure TForm3.Button1Click(Sender: TObject);
+begin
+  restRequestAuth.Execute;
+
+  memo1.Text := restRequestAuth.Response.Content;
+  Edit1.Text := FDMemTable1.FieldByName('access_token').AsString;
+end;
+
+procedure TForm3.Button2Click(Sender: TObject);
+begin
+  restRequest1.Params[0].Value := 'Bearer ' + Edit1.Text;
+  restRequest1.Execute;
+
+  memo1.Text := restRequestAuth.Response.Content;
+  Edit1.Text := FDMemTable1.FieldByName('access_token').AsString;
+end;
+
+end.

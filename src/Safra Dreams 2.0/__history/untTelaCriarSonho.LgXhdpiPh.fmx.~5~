@@ -1,0 +1,32 @@
+inherited frmTelaCriarSonho_LgXhdpiPh: TfrmTelaCriarSonho_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited SpeedButton2: TSpeedButton
+    Position.X = 12.000000000000000000
+    Position.Y = 331.000000000000000000
+  end
+  inherited SpeedButton1: TSpeedButton
+    Position.X = 12.000000000000000000
+    Position.Y = 397.000000000000000000
+    OnClick = SpeedButton1Click
+  end
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    Size.Height = 48.000000000000000000
+    inherited Label1: TLabel
+      Size.Width = 450.000000000000000000
+      Size.Height = 48.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited edtNomeSonho: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited edtMetaSonho: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited edtVencimento: TDateEdit
+    Size.Height = 32.000000000000000000
+  end
+end

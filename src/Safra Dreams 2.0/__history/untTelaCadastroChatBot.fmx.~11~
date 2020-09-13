@@ -1,0 +1,51 @@
+object frmTelaCadastroChatBot: TfrmTelaCadastroChatBot
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 291
+  ClientWidth = 490
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 490.000000000000000000
+    Size.Height = 291.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object edtMensagem: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      Position.X = 22.000000000000000000
+      Position.Y = 246.000000000000000000
+      Size.Width = 385.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Digite sua mensagem aqui...'
+      OnKeyDown = edtMensagemKeyDown
+    end
+    object btnEnviar: TSpeedButton
+      Position.X = 408.000000000000000000
+      Position.Y = 244.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'nexttoolbutton'
+      Text = 'btnEnviar'
+      OnClick = btnEnviarClick
+    end
+    object memoChat: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Position.X = 22.000000000000000000
+      Position.Y = 12.000000000000000000
+      Size.Width = 451.000000000000000000
+      Size.Height = 225.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Viewport.Width = 447.000000000000000000
+      Viewport.Height = 221.000000000000000000
+    end
+  end
+end

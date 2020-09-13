@@ -1,0 +1,51 @@
+unit untTelaLogin2;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts;
+
+type
+  TfrmTelaLogin2 = class(TForm)
+    imgFundo: TImage;
+    btnAbrirConta: TCornerButton;
+    btnAcessarConta: TCornerButton;
+    layoutFundo: TLayout;
+    procedure btnAcessarContaClick(Sender: TObject);
+    procedure btnAbrirContaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTelaLogin2: TfrmTelaLogin2;
+
+implementation
+
+{$R *.fmx}
+
+uses untTelaLogin, untTelaCadastroChatBot;
+{$R *.LgXhdpiTb.fmx ANDROID}
+{$R *.LgXhdpiPh.fmx ANDROID}
+
+procedure TfrmTelaLogin2.btnAbrirContaClick(Sender: TObject);
+var
+  lfrmTelaCadastroChatBot: TfrmTelaCadastroChatBot;
+begin
+  lfrmTelaCadastroChatBot := TfrmTelaCadastroChatBot.Create(nil);
+  lfrmTelaCadastroChatBot.Show;
+end;
+
+procedure TfrmTelaLogin2.btnAcessarContaClick(Sender: TObject);
+var
+  lfrmTelaLogin: TfrmTelaLogin;
+begin
+  lfrmTelaLogin := TfrmTelaLogin.Create(nil);
+  lfrmTelaLogin.Show;
+end;
+
+end.

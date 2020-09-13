@@ -1,0 +1,14 @@
+inherited frmTelaCriarSonho_LgXhdpiPh: TfrmTelaCriarSonho_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited SpeedButton2: TSpeedButton
+    Position.X = 12.000000000000000000
+    Position.Y = 331.000000000000000000
+  end
+  inherited SpeedButton1: TSpeedButton
+    Position.X = 12.000000000000000000
+    Position.Y = 397.000000000000000000
+    OnClick = SpeedButton1Click
+  end
+end

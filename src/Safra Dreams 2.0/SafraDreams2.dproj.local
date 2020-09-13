@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/11 14:46:37.000.341,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/11 14:57:52.000.667,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/11 15:28:09.000.021,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/16 15:25:04.000.320,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/20 14:32:12.000.493,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/20 14:43:20.000.369,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/20 15:13:21.000.264,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/15 10:09:40.000.570,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/15 15:51:44.000.109,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/15 15:55:03.000.278,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/15 15:58:22.000.012,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/15 16:02:04.000.614,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/15 16:05:34.000.295,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/15 16:08:38.000.004,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/16 08:21:25.000.634,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/16 08:33:30.000.783,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/16 13:40:28.000.332,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/16 14:09:49.000.712,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/12 19:37:25.000.592,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/09 09:11:23.000.501,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/12 15:16:59.000.610,=C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/12 15:18:11.000.265,C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaInicial.pas</Transaction>
+    <Transaction>2020/09/12 15:18:11.000.265,C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaInicial.fmx</Transaction>
+    <Transaction>2020/09/12 15:18:20.000.550,C:\Users\brendon.andrade\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\SafraDreams2.dproj</Transaction>
+    <Transaction>2020/09/12 15:49:04.000.702,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit2.pas</Transaction>
+    <Transaction>2020/09/12 15:49:40.000.066,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/12 15:59:57.000.135,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit3.pas</Transaction>
+    <Transaction>2020/09/12 16:00:21.000.911,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit3.pas=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untClasseIntegracaoAPI.pas</Transaction>
+    <Transaction>2020/09/12 16:00:21.000.911,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit3.fmx=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untClasseIntegracaoAPI.fmx</Transaction>
+    <Transaction>2020/09/12 16:53:50.000.206,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit2.pas</Transaction>
+    <Transaction>2020/09/12 16:54:05.000.039,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit2.fmx=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaLogin.fmx</Transaction>
+    <Transaction>2020/09/12 16:54:05.000.039,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit2.pas=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaLogin.pas</Transaction>
+    <Transaction>2020/09/12 17:04:24.000.586,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/12 17:07:05.000.518,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaCadastroChatBot.pas</Transaction>
+    <Transaction>2020/09/12 17:07:05.000.518,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.fmx=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaCadastroChatBot.fmx</Transaction>
+    <Transaction>2020/09/12 17:17:19.000.041,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/12 17:19:32.000.404,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/12 17:20:53.000.118,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaPrincipal.pas</Transaction>
+    <Transaction>2020/09/12 17:20:53.000.118,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.fmx=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaPrincipal.fmx</Transaction>
+    <Transaction>2020/09/12 21:18:51.000.477,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/12 21:19:09.000.488,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untIntegracaoAPIClass.pas</Transaction>
+    <Transaction>2020/09/12 23:50:17.000.210,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/12 23:50:36.000.275,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untDataModule.dfm=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.dfm</Transaction>
+    <Transaction>2020/09/12 23:50:36.000.275,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untDataModule.pas=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/13 01:29:20.000.173,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaLogin2.pas</Transaction>
+    <Transaction>2020/09/13 01:34:11.000.123,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaLogin2.pas=</Transaction>
+    <Transaction>2020/09/13 01:36:28.000.901,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaLogin2.pas</Transaction>
+    <Transaction>2020/09/13 01:38:06.000.177,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaLogin2.pas=</Transaction>
+    <Transaction>2020/09/13 01:40:40.000.819,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaLogin2.pas</Transaction>
+    <Transaction>2020/09/13 01:41:52.000.813,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaLogin2.pas=</Transaction>
+    <Transaction>2020/09/13 11:40:42.000.930,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/13 11:41:10.000.062,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaVisualizarSonho.pas=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/13 11:41:10.000.062,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaVisualizarSonho.fmx=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.fmx</Transaction>
+    <Transaction>2020/09/13 12:32:15.000.169,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/13 12:32:33.000.990,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaCriarSonho.pas=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/13 12:32:33.000.990,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaCriarSonho.fmx=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.fmx</Transaction>
+    <Transaction>2020/09/13 12:46:47.000.822,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/13 12:47:18.000.075,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaConvidarDreamer.fmx=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.fmx</Transaction>
+    <Transaction>2020/09/13 12:47:18.000.075,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untTelaConvidarDreamer.pas=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/13 15:19:30.000.070,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/13 15:19:58.000.023,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untMockBaseClass.pas=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/13 15:24:31.000.313,=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/13 15:25:03.000.365,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untConexaoBaseClass.pas=C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\Unit1.pas</Transaction>
+    <Transaction>2020/09/13 19:40:56.000.236,C:\Users\brendon.andrade\Desktop\Safra Dreams 2.0\untClasseIntegracaoAPI.pas=</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0050003966"/>
+	</ActiveMobileDevice>
+</BorlandProject>

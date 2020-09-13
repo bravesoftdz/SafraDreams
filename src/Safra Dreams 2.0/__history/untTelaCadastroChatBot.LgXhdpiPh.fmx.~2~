@@ -1,0 +1,27 @@
+inherited frmTelaCadastroChatBot_LgXhdpiPh: TfrmTelaCadastroChatBot_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited Layout1: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited edtMensagem: TEdit
+      Position.X = 12.000000000000000000
+      Position.Y = 614.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+    inherited btnEnviar: TSpeedButton
+      Position.X = 396.000000000000000000
+      Position.Y = 608.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+    end
+    inherited memoChat: TMemo
+      Position.X = 15.000000000000000000
+      Size.Width = 418.000000000000000000
+      Size.Height = 577.000000000000000000
+      Viewport.Width = 418.000000000000000000
+      Viewport.Height = 577.000000000000000000
+    end
+  end
+end

@@ -1,0 +1,32 @@
+inherited frmTelaLogin_LgXhdpiPh: TfrmTelaLogin_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited Layout1: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited btnContinuar: TCornerButton [0]
+    end
+    inherited edtCPFCNPJ: TEdit [1]
+    end
+    inherited edtSenha: TEdit [2]
+    end
+    inherited lblCPFCNPJ: TLabel [3]
+    end
+    inherited lblErroLogin: TLabel [4]
+    end
+    inherited lblLembrarCPFCNPJ: TLabel [5]
+      TextSettings.Font.Size = 14.000000000000000000
+    end
+    inherited lblSenha: TLabel [6]
+    end
+    inherited swithSalvaCPFCNPJ: TSwitch [7]
+    end
+    inherited imgFundo: TImage [8]
+      MultiResBitmap.Height = 1036
+      MultiResBitmap.Width = 676
+      Size.Width = 550.000000000000000000
+      Size.Height = 795.000000000000000000
+    end
+  end
+end

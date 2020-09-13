@@ -1,0 +1,17 @@
+inherited frmTelaVisualizarSonho_LgXhdpiPh: TfrmTelaVisualizarSonho_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    Size.Height = 48.000000000000000000
+    inherited Label1: TLabel
+      StyledSettings = [Family]
+      Size.Width = 450.000000000000000000
+      Size.Height = 48.000000000000000000
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claMidnightblue
+    end
+  end
+end

@@ -1,0 +1,72 @@
+unit untTelaLogin2;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts, FMX.Edit;
+
+type
+  TfrmTelaLogin2 = class(TForm)
+    imgFundo: TImage;
+    layoutFundo: TLayout;
+    lblErroLogin: TLabel;
+    lblCPFCNPJ: TLabel;
+    edtCPFCNPJ: TEdit;
+    lblSenha: TLabel;
+    edtSenha: TEdit;
+    lblLembrarCPFCNPJ: TLabel;
+    swithSalvaCPFCNPJ: TSwitch;
+    btnContinuar: TCornerButton;
+    procedure btnContinuarClick(Sender: TObject);
+  private
+    procedure ExibirTelaPrincipal;
+    function LoginRealizadoComSucesso: boolean;
+    procedure ExibirErroLogin(bExibir: boolean);
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTelaLogin2: TfrmTelaLogin2;
+
+implementation
+
+{$R *.fmx}
+
+uses untTelaPrincipal;
+
+procedure TfrmTelaLogin2.btnContinuarClick(Sender: TObject);
+begin
+  ExibirErroLogin(False);
+  if LoginRealizadoComSucesso then
+  begin
+    ExibirTelaPrincipal;
+  end
+  else
+  begin
+    ExibirErroLogin(True);
+  end;
+end;
+
+function TfrmTelaLogin2.LoginRealizadoComSucesso: boolean;
+begin
+  result := (edtCPFCNPJ.Text = '123') and (edtSenha.Text = '123');
+end;
+
+procedure TfrmTelaLogin2.ExibirTelaPrincipal;
+var
+  lfrmTelaPrincipal: TfrmTelaPrincipal;
+begin
+  lfrmTelaPrincipal := TfrmTelaPrincipal.Create(nil);
+  lfrmTelaPrincipal.Show;
+end;
+
+procedure TfrmTelaLogin2.ExibirErroLogin(bExibir: boolean);
+begin
+  lblErroLogin.Visible := bExibir;
+end;
+
+end.

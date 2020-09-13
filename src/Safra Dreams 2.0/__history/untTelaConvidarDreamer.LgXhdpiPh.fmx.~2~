@@ -1,0 +1,25 @@
+inherited frmTelaConvidarDreamer_LgXhdpiPh: TfrmTelaConvidarDreamer_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    Size.Width = 175.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'CPF/CNPJ'
+  end
+  inherited Edit1: TEdit
+    Size.Width = 283.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    Size.Height = 48.000000000000000000
+    inherited Label2: TLabel
+      Size.Width = 450.000000000000000000
+      Size.Height = 48.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end

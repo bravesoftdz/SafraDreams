@@ -1,0 +1,24 @@
+program SafraDreams2;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  untTelaInicial in 'untTelaInicial.pas' {frmTelaInicial},
+  untClasseIntegracaoAPI in 'untClasseIntegracaoAPI.pas' {Form3},
+  untTelaCadastroChatBot in 'untTelaCadastroChatBot.pas' {frmTelaCadastroChatBot},
+  untTelaPrincipal in 'untTelaPrincipal.pas' {frmTelaPrincipal},
+  untIntegracaoAPIClass in 'untIntegracaoAPIClass.pas',
+  untDataModule in 'untDataModule.pas' {dataModuleGeral: TDataModule},
+  untTelaLogin in 'untTelaLogin.pas' {frmTelaLogin},
+  untTelaVisualizarSonho in 'untTelaVisualizarSonho.pas' {frmTelaVisualizarSonho},
+  untTelaCriarSonho in 'untTelaCriarSonho.pas' {frmTelaCriarSonho},
+  untTelaConvidarDreamer in 'untTelaConvidarDreamer.pas' {frmTelaConvidarDreamer};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TfrmTelaInicial, frmTelaInicial);
+  Application.CreateForm(TdataModuleGeral, dataModuleGeral);
+  Application.Run;
+end.

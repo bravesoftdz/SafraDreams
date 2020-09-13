@@ -1,0 +1,15 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited Image1: TImage
+    MultiResBitmap.Height = 1036
+    MultiResBitmap.Width = 676
+    Margins.Left = -10.000000000000000000
+    Margins.Top = -10.000000000000000000
+    Margins.Right = -10.000000000000000000
+    Margins.Bottom = -10.000000000000000000
+    Size.Width = 470.000000000000000000
+    Size.Height = 715.000000000000000000
+  end
+end

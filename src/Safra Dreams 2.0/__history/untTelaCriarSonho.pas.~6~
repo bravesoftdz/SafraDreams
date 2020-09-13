@@ -1,0 +1,29 @@
+unit untTelaCriarSonho;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Controls.Presentation,
+  FMX.StdCtrls, System.ImageList, FMX.ImgList;
+
+type
+  TfrmTelaCriarSonho = class(TForm)
+    SpeedButton2: TSpeedButton;
+    ImageList1: TImageList;
+    SpeedButton1: TSpeedButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTelaCriarSonho: TfrmTelaCriarSonho;
+
+implementation
+
+{$R *.fmx}
+{$R *.LgXhdpiPh.fmx ANDROID}
+
+end.

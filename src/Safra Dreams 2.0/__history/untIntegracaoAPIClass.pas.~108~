@@ -1,0 +1,170 @@
+unit untIntegracaoAPIClass;
+
+interface
+
+uses REST.Client, REST.Types, REST.Response.Adapter, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
+  Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client, FMX.Dialogs, IPPeerCommon;
+
+type
+  TDadosDaConta = record
+    NumeroDaConta: string;
+    Moeda: string;
+    Apelido: string;
+    DocumentoTitular: string;
+    NomeCompleto: string;
+  end;
+
+  TSaldosDaConta = record
+    SaldoContaCorrente: string;
+    MoedaContaCorrente: string;
+    SaldoCredito: string;
+    MoedaCredito: string;
+  end;
+
+  TIntegracaoAPIClass = class
+  public
+    class function AmbienteEstaAcessivel: boolean; static;
+    class function RetornarChaveAuth2: string;
+    class function RetornarDadosDaConta: TDadosDaConta;
+    class function RetornarSaldosDaConta: TSaldosDaConta; static;
+  end;
+
+implementation
+
+{ TIntegracaoAPIClass }
+
+uses untDataModule;
+
+class function TIntegracaoAPIClass.RetornarChaveAuth2: string;
+const
+  URL_API = 'https://idcs-902a944ff6854c5fbe94750e48d66be5.identity.oraclecloud.com/oauth2/v1/token';
+var
+  lRestClientAuth: TRestClient;
+  lRestRequestAuth: TRestRequest;
+  lRestResponseAuth: TRestResponse;
+  lRestResponseDataSetAdapterAuth: TRESTResponseDataSetAdapter;
+begin
+  lRestClientAuth := TRestClient.Create(URL_API);
+  lRestResponseAuth := TRestResponse.Create(nil);
+  lRestResponseDataSetAdapterAuth := TRESTResponseDataSetAdapter.Create(nil);
+
+  lRestRequestAuth := TRestRequest.Create(nil);
+  lRestRequestAuth.Method := rmPOST;
+  lRestRequestAuth.Client := lRestClientAuth;
+  lRestRequestAuth.Response := lRestResponseAuth;
+
+  lRestRequestAuth.Params.AddHeader('Authorization', 'Basic YmZjZmFlMGY1YjMzNDNlMGIzNTcxODg0MzU2ODJmZWU6NDZhMjllYjAtNDBkOS00MzJlLWE2M2ItODE4OTIxMTBhZTc4');
+  lRestRequestAuth.Params.AddHeader('Cache-Control', 'no-cache');
+  lRestRequestAuth.Params.AddHeader('Content-Type', 'application/x-www-form-urlencoded');
+  lRestRequestAuth.Params.AddItem('', 'grant_type=client_credentials&scope=urn:opc:resource:consumer::all', TRESTRequestParameterKind.pkREQUESTBODY);
+
+  lRestRequestAuth.Params[0].Options := [poDoNotEncode];
+  lRestRequestAuth.Params[1].Options := [poDoNotEncode];
+  lRestRequestAuth.Params[2].Options := [poDoNotEncode];
+  lRestRequestAuth.Params[3].Options := [poDoNotEncode];
+
+  lRestResponseDataSetAdapterAuth.Response := lRestResponseAuth;
+  lRestResponseDataSetAdapterAuth.Dataset := dataModuleGeral.FDMemTableAuth;
+
+  lRestRequestAuth.Execute;
+
+  result := 'Bearer ' + dataModuleGeral.FDMemTableAuth.FieldByName('access_token').AsString;
+end;
+
+class function TIntegracaoAPIClass.RetornarDadosDaConta: TDadosDaConta;
+const
+  URL_API = 'https://af3tqle6wgdocsdirzlfrq7w5m.apigateway.sa-saopaulo-1.oci.customer-oci.com/fiap-sandbox/open-banking/v1/accounts/00711234511';
+var
+  lRestClientDadosConta: TRestClient;
+  lRestRequestDadosConta: TRestRequest;
+  lRestResponseDadosConta: TRestResponse;
+  lRestResponseDataSetAdapterDadosConta: TRESTResponseDataSetAdapter;
+  lFdMemTable: TFDMemTable;
+begin
+  lRestClientDadosConta := TRestClient.Create(URL_API);
+  lRestResponseDadosConta := TRestResponse.Create(nil);
+  lRestResponseDadosConta.RootElement := 'Data.Account';
+  lRestResponseDataSetAdapterDadosConta := TRESTResponseDataSetAdapter.Create(nil);
+  lFdMemTable := TFdMemTable.Create(nil);
+
+  lRestRequestDadosConta := TRestRequest.Create(nil);
+  lRestRequestDadosConta.Method := rmGET;
+  lRestRequestDadosConta.Client := lRestClientDadosConta;
+  lRestRequestDadosConta.Response := lRestResponseDadosConta;
+
+  lRestRequestDadosConta.Params.AddHeader('Authorization', TIntegracaoAPIClass.RetornarChaveAuth2);
+
+  lRestRequestDadosConta.Params[0].Options := [poDoNotEncode];
+
+  lRestResponseDataSetAdapterDadosConta.Response := lRestResponseDadosConta;
+  lRestResponseDataSetAdapterDadosConta.Dataset := lFdMemTable;
+
+  lRestRequestDadosConta.Execute;
+
+  Result.NumeroDaConta := lFdMemTable.FieldByName('AccountId').AsString;
+  Result.Moeda := lFdMemTable.FieldByName('Currency').AsString;
+  Result.Apelido := lFdMemTable.FieldByName('Nickname').AsString;
+end;
+
+class function TIntegracaoAPIClass.RetornarSaldosDaConta: TSaldosDaConta;
+const
+  URL_API = 'https://af3tqle6wgdocsdirzlfrq7w5m.apigateway.sa-saopaulo-1.oci.customer-oci.com/fiap-sandbox/open-banking/v1/accounts/00711234511/balances';
+var
+  lRestClientSaldosConta: TRestClient;
+  lRestRequestSaldosConta: TRestRequest;
+  lRestResponseSaldosConta: TRestResponse;
+  lRestResponseDataSetAdapterSaldosConta: TRESTResponseDataSetAdapter;
+  lFdMemTable: TFDMemTable;
+begin
+  lRestClientSaldosConta := TRestClient.Create(URL_API);
+  lRestResponseSaldosConta := TRestResponse.Create(nil);
+  lRestResponseSaldosConta.RootElement := 'Data.Balance[0].Amount';
+  lRestResponseDataSetAdapterSaldosConta := TRESTResponseDataSetAdapter.Create(nil);
+  lFdMemTable := TFdMemTable.Create(nil);
+
+  lRestRequestSaldosConta := TRestRequest.Create(nil);
+  lRestRequestSaldosConta.Method := rmGET;
+  lRestRequestSaldosConta.Client := lRestClientSaldosConta;
+  lRestRequestSaldosConta.Response := lRestResponseSaldosConta;
+
+  lRestRequestSaldosConta.Params.AddHeader('Authorization', TIntegracaoAPIClass.RetornarChaveAuth2);
+
+  lRestRequestSaldosConta.Params[0].Options := [poDoNotEncode];
+
+  lRestResponseDataSetAdapterSaldosConta.Response := lRestResponseSaldosConta;
+  lRestResponseDataSetAdapterSaldosConta.Dataset := lFdMemTable;
+
+  lRestRequestSaldosConta.Execute;
+
+  Result.SaldoContaCorrente := lFdMemTable.FieldByName('Amount').AsString;
+  Result.MoedaContaCorrente := lFdMemTable.FieldByName('Currency').AsString;
+end;
+
+class function TIntegracaoAPIClass.AmbienteEstaAcessivel: boolean;
+const
+  URL_API = 'https://af3tqle6wgdocsdirzlfrq7w5m.apigateway.sa-saopaulo-1.oci.customer-oci.com/fiap-sandbox/health';
+var
+  lRestClientHealthCheck: TRestClient;
+  lRestRequestHealthCheck: TRestRequest;
+  lRestResponseHealthCheck: TRestResponse;
+begin
+  lRestClientHealthCheck := TRestClient.Create(URL_API);
+  lRestResponseHealthCheck := TRestResponse.Create(nil);
+
+  lRestRequestHealthCheck := TRestRequest.Create(nil);
+  lRestRequestHealthCheck.Method := rmGET;
+  lRestRequestHealthCheck.Client := lRestClientHealthCheck;
+  lRestRequestHealthCheck.Response := lRestResponseHealthCheck;
+
+  lRestRequestHealthCheck.Params.AddHeader('Authorization', TIntegracaoAPIClass.RetornarChaveAuth2);
+
+  lRestRequestHealthCheck.Params[0].Options := [poDoNotEncode];
+
+  lRestRequestHealthCheck.Execute;
+
+  lRestRequestHealthCheck.Response.StatusCode;
+end;
+
+
+end.

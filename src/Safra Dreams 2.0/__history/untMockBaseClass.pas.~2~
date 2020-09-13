@@ -1,0 +1,12 @@
+unit untMockBaseClass;
+
+interface
+
+type
+  TMockBaseClass = class
+
+  end;
+
+implementation
+
+end.

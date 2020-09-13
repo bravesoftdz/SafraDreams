@@ -1,0 +1,345 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 514
+  ClientWidth = 841
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Button1: TButton
+    Position.X = 18.000000000000000000
+    Position.Y = 322.000000000000000000
+    Size.Width = 141.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Obter Chave'
+    OnClick = Button1Click
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 202.000000000000000000
+    Position.Y = 44.000000000000000000
+    Size.Width = 159.000000000000000000
+    Size.Height = 175.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 159.000000000000000000
+    Viewport.Height = 175.000000000000000000
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 202.000000000000000000
+    Position.Y = 262.000000000000000000
+    Size.Width = 155.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Memo2: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 562.000000000000000000
+    Position.Y = 34.000000000000000000
+    Size.Width = 187.000000000000000000
+    Size.Height = 127.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Viewport.Width = 187.000000000000000000
+    Viewport.Height = 127.000000000000000000
+  end
+  object Button2: TButton
+    Position.X = 744.000000000000000000
+    Position.Y = 156.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Button2'
+    OnClick = Button2Click
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Position.X = 542.000000000000000000
+    Position.Y = 226.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit3: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    Position.X = 546.000000000000000000
+    Position.Y = 284.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object restRequestAuth: TRESTRequest
+    Client = restClientAuth
+    Method = rmPOST
+    Params = <
+      item
+        Kind = pkHTTPHEADER
+        name = 'Authorization'
+        Options = [poDoNotEncode]
+        Value = 
+          'Basic YmZjZmFlMGY1YjMzNDNlMGIzNTcxODg0MzU2ODJmZWU6NDZhMjllYjAtND' +
+          'BkOS00MzJlLWE2M2ItODE4OTIxMTBhZTc4'
+      end
+      item
+        Kind = pkHTTPHEADER
+        name = 'Cache-Control'
+        Options = [poDoNotEncode]
+        Value = 'no-cache'
+      end
+      item
+        Kind = pkHTTPHEADER
+        name = 'Content-Type'
+        Options = [poDoNotEncode]
+        Value = 'application/x-www-form-urlencoded'
+      end
+      item
+        Kind = pkREQUESTBODY
+        Value = 
+          'grant_type=client_credentials&scope=urn:opc:resource:consumer::a' +
+          'll'
+        ContentType = ctTEXT_PLAIN
+      end>
+    Response = RESTResponse1
+    SynchronizedEvents = False
+    Left = 98
+    Top = 134
+  end
+  object restClientAuth: TRESTClient
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'UTF-8, *;q=0.8'
+    BaseURL = 
+      'https://idcs-902a944ff6854c5fbe94750e48d66be5.identity.oracleclo' +
+      'ud.com/oauth2/v1/token'
+    ContentType = 'text/plain'
+    Params = <>
+    HandleRedirects = True
+    RaiseExceptionOn500 = False
+    Left = 98
+    Top = 84
+  end
+  object RESTResponseDataSetAdapter1: TRESTResponseDataSetAdapter
+    Active = True
+    Dataset = FDMemTable1
+    FieldDefs = <>
+    Response = RESTResponse1
+    Left = 98
+    Top = 194
+  end
+  object RESTResponse1: TRESTResponse
+    ContentType = 'application/json'
+    Left = 100
+    Top = 26
+  end
+  object FDMemTable1: TFDMemTable
+    Active = True
+    FieldDefs = <
+      item
+        Name = 'access_token'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'token_type'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'expires_in'
+        DataType = ftWideString
+        Size = 255
+      end>
+    IndexDefs = <>
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    FormatOptions.AssignedValues = [fvMapRules, fvMaxStringSize]
+    FormatOptions.OwnMapRules = True
+    FormatOptions.MapRules = <
+      item
+      end>
+    FormatOptions.MaxStringSize = 80000
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
+    UpdateOptions.CheckRequired = False
+    UpdateOptions.AutoCommitUpdates = True
+    StoreDefs = True
+    Left = 98
+    Top = 254
+    object FDMemTable1access_token: TWideStringField
+      FieldName = 'access_token'
+      Size = 255
+    end
+    object FDMemTable1token_type: TWideStringField
+      FieldName = 'token_type'
+      Size = 255
+    end
+    object FDMemTable1expires_in: TWideStringField
+      FieldName = 'expires_in'
+      Size = 255
+    end
+  end
+  object RESTClient1: TRESTClient
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'UTF-8, *;q=0.8'
+    BaseURL = 
+      'https://af3tqle6wgdocsdirzlfrq7w5m.apigateway.sa-saopaulo-1.oci.' +
+      'customer-oci.com/fiap-sandbox/open-banking/v1/accounts/007112345' +
+      '11'
+    Params = <>
+    HandleRedirects = True
+    RaiseExceptionOn500 = False
+    Left = 460
+    Top = 232
+  end
+  object RESTRequest1: TRESTRequest
+    Client = RESTClient1
+    Params = <
+      item
+        Kind = pkHTTPHEADER
+        name = 'Authorization'
+        Options = [poDoNotEncode]
+        Value = 
+          'Bearer eyJ4NXQjUzI1NiI6IlNhWkUtSjdJdDBQWFRYNFlCaTBCeXk4WWhPVlJkS' +
+          'zlNNXgzREN3R2ZnbkEiLCJ4NXQiOiJVSWpBeHIyTWlzNk9JdTNMS2NsX3JPSHl3e' +
+          'XMiLCJraWQiOiJTSUdOSU5HX0tFWSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJiZ' +
+          'mNmYWUwZjViMzM0M2UwYjM1NzE4ODQzNTY4MmZlZSIsImd0cCI6ImNjIiwidXNlc' +
+          'i50ZW5hbnQubmFtZSI6ImlkY3MtOTAyYTk0NGZmNjg1NGM1ZmJlOTQ3NTBlNDhkN' +
+          'jZiZTUiLCJzdWJfbWFwcGluZ2F0dHIiOiJ1c2VyTmFtZSIsInByaW1UZW5hbnQiO' +
+          'nRydWUsImlzcyI6Imh0dHBzOlwvXC9pZGVudGl0eS5vcmFjbGVjbG91ZC5jb21cL' +
+          'yIsInRva190eXBlIjoiQVQiLCJjbGllbnRfaWQiOiJiZmNmYWUwZjViMzM0M2UwY' +
+          'jM1NzE4ODQzNTY4MmZlZSIsImNhX2d1aWQiOiJjYWNjdC1iOThlNGJjZDQ1MDU0Y' +
+          'jZlOTc3NzU5OThiNmYzNmYwNiIsImF1ZCI6InVybjpvcGM6cmVzb3VyY2U6c2Nvc' +
+          'GU6YWNjb3VudCIsInN1Yl90eXBlIjoiY2xpZW50Iiwic2NvcGUiOiJ1cm46b3BjO' +
+          'nJlc291cmNlOmNvbnN1bWVyOjphbGwiLCJjbGllbnRfdGVuYW50bmFtZSI6ImlkY' +
+          '3MtOTAyYTk0NGZmNjg1NGM1ZmJlOTQ3NTBlNDhkNjZiZTUiLCJleHAiOjE1OTk5N' +
+          'jk0OTEsImlhdCI6MTU5OTk2NTg5MSwidGVuYW50X2lzcyI6Imh0dHBzOlwvXC9pZ' +
+          'GNzLTkwMmE5NDRmZjY4NTRjNWZiZTk0NzUwZTQ4ZDY2YmU1LmlkZW50aXR5Lm9yY' +
+          'WNsZWNsb3VkLmNvbTo0NDMiLCJjbGllbnRfZ3VpZCI6ImM3NTI4ZjBmOGMxZjQ1M' +
+          'mJiYjZiMTllZWU1NzI2YmZhIiwiY2xpZW50X25hbWUiOiJUaW1lIDMiLCJ0ZW5hb' +
+          'nQiOiJpZGNzLTkwMmE5NDRmZjY4NTRjNWZiZTk0NzUwZTQ4ZDY2YmU1IiwianRpI' +
+          'joiMTFlYWY1NmNmNWQxZWNjNzhmM2Y3ZjRmMWUwNGZhZmYifQ.VIA4bG5DuOCUQ7' +
+          'ZfnGvUkRo-nIr5K2582f2v4mRuYRF259zfAuNqnVWjfHMQqlUt_-OHprqCu6rTUY' +
+          'psS2RCLHAbJnw0zfBHUyeQUR2WMVzSEtPgZj9u2ZhSj0hgiTUOnk0RRJGzJyzuAV' +
+          '0F7O5iU8_UAM9neW-VXUTmAbfxkqvF6wM8eiKBuAXKbOyvau_VRZshvjW5dn9LPn' +
+          'xeHROQINzblizXMSqt5WkbaaF1-gYFidwbelVocvZYy7p06aY-C62cZSa7JM53N6' +
+          'cBvIZfWgQ5Qup9lSAB0EDArEUXj5WuhuAAtulvuj8yPnzz0SeM-UyZG5LtcGvaDp' +
+          '7Tjdvp4A'
+      end>
+    Response = RESTResponse2
+    SynchronizedEvents = False
+    Left = 458
+    Top = 176
+  end
+  object RESTResponse2: TRESTResponse
+    ContentType = 'application/json'
+    RootElement = 'Data.Account'
+    Left = 458
+    Top = 118
+  end
+  object RESTResponseDataSetAdapter2: TRESTResponseDataSetAdapter
+    Active = True
+    Dataset = FDMemTable2
+    FieldDefs = <>
+    Response = RESTResponse2
+    NestedElements = True
+    Left = 454
+    Top = 60
+  end
+  object FDMemTable2: TFDMemTable
+    Active = True
+    FieldDefs = <
+      item
+        Name = 'AccountId'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Currency'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Nickname'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Account'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Account.SchemeName'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Account.Identification'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Account.Name'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Account.SecondaryIdentification'
+        DataType = ftWideString
+        Size = 255
+      end>
+    IndexDefs = <>
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired]
+    UpdateOptions.CheckRequired = False
+    StoreDefs = True
+    Left = 458
+    Top = 294
+    object FDMemTable2AccountId: TWideStringField
+      FieldName = 'AccountId'
+      Size = 255
+    end
+    object FDMemTable2Currency: TWideStringField
+      FieldName = 'Currency'
+      Size = 255
+    end
+    object FDMemTable2Nickname: TWideStringField
+      FieldName = 'Nickname'
+      Size = 255
+    end
+    object FDMemTable2Account: TWideStringField
+      FieldName = 'Account'
+      Size = 255
+    end
+    object FDMemTable2AccountSchemeName: TWideStringField
+      FieldName = 'Account.SchemeName'
+      Size = 255
+    end
+    object FDMemTable2AccountIdentification: TWideStringField
+      FieldName = 'Account.Identification'
+      Size = 255
+    end
+    object FDMemTable2AccountName: TWideStringField
+      FieldName = 'Account.Name'
+      Size = 255
+    end
+    object FDMemTable2AccountSecondaryIdentification: TWideStringField
+      FieldName = 'Account.SecondaryIdentification'
+      Size = 255
+    end
+  end
+end

@@ -1,0 +1,41 @@
+inherited frmTelaConvidarDreamer_LgXhdpiPh: TfrmTelaConvidarDreamer_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    Size.Width = 175.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'CPF/CNPJ'
+  end
+  inherited Edit1: TEdit
+    KeyboardType = NumberPad
+    Size.Width = 253.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    Size.Height = 48.000000000000000000
+    inherited Label2: TLabel
+      Size.Width = 450.000000000000000000
+      Size.Height = 48.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited SpeedButton1: TSpeedButton
+    Position.X = 42.000000000000000000
+    Position.Y = 246.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited SpeedButton2: TSpeedButton
+    Position.X = 44.000000000000000000
+    Position.Y = 316.000000000000000000
+    Size.Width = 223.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = SpeedButton2Click
+  end
+end

@@ -1,0 +1,18 @@
+inherited frmTelaLogin2_LgXhdpiPh: TfrmTelaLogin2_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited layoutFundo: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited imgFundo: TImage
+      MultiResBitmap.Height = 1036
+      MultiResBitmap.Width = 676
+      Size.Width = 550.000000000000000000
+      Size.Height = 795.000000000000000000
+    end
+    inherited btnContinuar: TCornerButton
+      OnClick = nil
+    end
+  end
+end

@@ -1,0 +1,97 @@
+unit untTelaVisualizarSonho;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Controls.Presentation, System.ImageList, FMX.ImgList, System.Math;
+
+type
+  TfrmTelaVisualizarSonho = class(TForm)
+    ToolBar1: TToolBar;
+    Label1: TLabel;
+    ImageList1: TImageList;
+    SpeedButton2: TSpeedButton;
+    ProgressBar1: TProgressBar;
+    lblPercentualMetaAtingida: TLabel;
+    Label2: TLabel;
+    lblSonhoSaldoTotal: TLabel;
+    lblSonhoMeta: TLabel;
+    lblSonhoVencimento: TLabel;
+    procedure FormShow(Sender: TObject);
+    procedure SpeedButton2Click(Sender: TObject);
+  private
+    function GetLabelNomeSonho: string;
+    procedure SetLabelNomeSonho(const Value: string);
+    procedure GerarDadosAleatorios;
+    { Private declarations }
+  public
+    property lblNomeSonho: string read GetLabelNomeSonho write SetLabelNomeSonho;
+    { Public declarations }
+  end;
+
+var
+  frmTelaVisualizarSonho: TfrmTelaVisualizarSonho;
+
+implementation
+
+{$R *.fmx}
+
+uses untTelaConvidarDreamer;
+{$R *.LgXhdpiPh.fmx ANDROID}
+
+{ TfrmTelaVisualizarSonho }
+
+procedure TfrmTelaVisualizarSonho.FormShow(Sender: TObject);
+begin
+//  Randomize;
+//  ProgressBar1.Value := Random(100);
+//  lblPercentualMetaAtingida.Text := ProgressBar1.Value.ToString + '%';
+
+  //lblSonhoSaldoTotal.Text := 'Saldo Total: ' + 'R$ 2.000,00';
+  //lblSonhoMeta.Text := 'Meta: ' + 'R$ 4.000,00';
+  //lblSonhoVencimento.Text := 'Vencimento: ' + '31/12/2020';
+
+  GerarDadosAleatorios
+end;
+
+procedure TfrmTelaVisualizarSonho.GerarDadosAleatorios;
+var
+  lSaldoTotal: Double;
+  lMeta: Double;
+begin
+  Randomize;
+
+  lSaldoTotal := RandomRange(0, 2000);
+  lMeta := RandomRange(2000, 10000);
+
+  lblSonhoSaldoTotal.Text := 'Saldo Total: R$ ' + lSaldoTotal.ToString;
+  lblSonhoMeta.Text := 'Meta: R$ ' + lMeta.ToString;
+  lblSonhoVencimento.Text := 'Vencimento: ' + '31/12/2020';
+
+  ProgressBar1.Value := Round((lSaldoTotal*100)/lMeta);
+
+  lblPercentualMetaAtingida.Text := ProgressBar1.Value.ToString + '%';
+end;
+
+function TfrmTelaVisualizarSonho.GetLabelNomeSonho: string;
+begin
+  Result := Label1.Text.Trim;
+end;
+
+procedure TfrmTelaVisualizarSonho.SetLabelNomeSonho(const Value: string);
+begin
+  Label1.Text := Value;
+end;
+
+procedure TfrmTelaVisualizarSonho.SpeedButton2Click(Sender: TObject);
+var
+  lfrmTelaConvidarDreamer: TfrmTelaConvidarDreamer;
+begin
+  lfrmTelaConvidarDreamer := TfrmTelaConvidarDreamer.Create(nil);
+  lfrmTelaConvidarDreamer.lblNomeSonho := Self.Label1.Text;
+  lfrmTelaConvidarDreamer.Show;
+end;
+
+end.

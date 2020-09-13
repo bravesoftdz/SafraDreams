@@ -1,0 +1,34 @@
+unit untConexaoBaseClass;
+
+interface
+
+type
+  TConexaoBaseClass = class
+    FComponenteConexao: TFDConnection;
+  private
+    procedure Conectar;
+    procedure ConfigurarComponenteConexao;
+  public
+    constructor Create;
+  end;
+
+implementation
+
+{ TConexaoBaseClass }
+
+procedure TConexaoBaseClass.Conectar;
+begin
+
+end;
+
+procedure TConexaoBaseClass.ConfigurarComponenteConexao;
+begin
+
+end;
+
+constructor TConexaoBaseClass.Create;
+begin
+  ConfigurarComponenteConexao;
+end;
+
+end.

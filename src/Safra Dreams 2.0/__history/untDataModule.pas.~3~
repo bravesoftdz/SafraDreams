@@ -1,0 +1,25 @@
+unit untDataModule;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TdataModuleGeral = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dataModuleGeral: TdataModuleGeral;
+
+implementation
+
+{%CLASSGROUP 'FMX.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,44 @@
+unit untConexaoBaseClass;
+
+interface
+
+uses
+  FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Error,
+  FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async,
+  FireDAC.Phys, Data.DB, FireDAC.Comp.Client;
+
+type
+  TConexaoBaseClass = class
+    FComponenteConexao: TFDConnection;
+  private
+    procedure Conectar;
+    procedure ConfigurarComponenteConexao;
+  public
+    constructor Create;
+  end;
+
+implementation
+
+{ TConexaoBaseClass }
+
+procedure TConexaoBaseClass.Conectar;
+begin
+
+end;
+
+procedure TConexaoBaseClass.ConfigurarComponenteConexao;
+begin
+  FComponenteConexao := TFDConnection.Create(nil);
+
+  FComponenteConexao.DriverName := 'SQLLite';
+  FComponenteConexao.Params.UserName := 'safradreams';
+  FComponenteConexao.Params.Password := 'sdf@#$sdf';
+  FComponenteConexao.Params.Database := 'safradreams';
+end;
+
+constructor TConexaoBaseClass.Create;
+begin
+  ConfigurarComponenteConexao;
+end;
+
+end.

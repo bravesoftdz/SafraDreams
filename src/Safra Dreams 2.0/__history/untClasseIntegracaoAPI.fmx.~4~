@@ -1,0 +1,59 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 480
+  ClientWidth = 395
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object restRequestAuth: TRESTRequest
+    Client = restClientAuth
+    Method = rmPOST
+    Params = <
+      item
+        Kind = pkHTTPHEADER
+        name = 'Authorization'
+        Options = [poDoNotEncode]
+        Value = 
+          'Basic YmZjZmFlMGY1YjMzNDNlMGIzNTcxODg0MzU2ODJmZWU6NDZhMjllYjAtND' +
+          'BkOS00MzJlLWE2M2ItODE4OTIxMTBhZTc4'
+      end
+      item
+        Kind = pkHTTPHEADER
+        name = 'Cache-Control'
+        Options = [poDoNotEncode]
+        Value = 'no-cache'
+      end
+      item
+        Kind = pkHTTPHEADER
+        name = 'Content-Type'
+        Options = [poDoNotEncode]
+        Value = 'application/x-www-form-urlencoded'
+      end
+      item
+        Kind = pkREQUESTBODY
+        Value = 
+          'grant_type=client_credentials&scope=urn:opc:resource:consumer::a' +
+          'll'
+        ContentType = ctTEXT_PLAIN
+      end>
+    SynchronizedEvents = False
+    Left = 98
+    Top = 158
+  end
+  object restClientAuth: TRESTClient
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'UTF-8, *;q=0.8'
+    BaseURL = 
+      'https://idcs-902a944ff6854c5fbe94750e48d66be5.identity.oracleclo' +
+      'ud.com/oauth2/v1/token'
+    ContentType = 'text/plain'
+    Params = <>
+    HandleRedirects = True
+    RaiseExceptionOn500 = False
+    Left = 98
+    Top = 84
+  end
+end

@@ -1,0 +1,51 @@
+inherited frmTelaLogin2_LgXhdpiPh: TfrmTelaLogin2_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  inherited layoutFundo: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited imgFundo: TImage
+      MultiResBitmap.Height = 1036
+      MultiResBitmap.Width = 676
+      Size.Width = 550.000000000000000000
+      Size.Height = 795.000000000000000000
+    end
+    inherited lblErroLogin: TLabel
+      Position.X = 128.000000000000000000
+      Position.Y = 294.000000000000000000
+    end
+    inherited lblCPFCNPJ: TLabel
+      Position.Y = 336.000000000000000000
+    end
+    inherited edtCPFCNPJ: TEdit
+      Position.X = 62.000000000000000000
+      Position.Y = 366.000000000000000000
+      Size.Width = 281.000000000000000000
+    end
+    inherited lblSenha: TLabel
+      Position.X = 66.000000000000000000
+      Position.Y = 422.000000000000000000
+    end
+    inherited edtSenha: TEdit
+      Position.X = 66.000000000000000000
+      Position.Y = 454.000000000000000000
+      Size.Width = 277.000000000000000000
+    end
+    inherited lblLembrarCPFCNPJ: TLabel
+      StyledSettings = [Family, Style]
+      Position.X = 124.000000000000000000
+      Position.Y = 550.000000000000000000
+    end
+    inherited swithSalvaCPFCNPJ: TSwitch
+      Position.X = 287.000000000000000000
+      Position.Y = 546.000000000000000000
+    end
+    inherited btnContinuar: TCornerButton
+      Position.X = 174.000000000000000000
+      Position.Y = 604.000000000000000000
+      OnClick = nil
+    end
+  end
+end
