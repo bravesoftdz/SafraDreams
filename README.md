@@ -24,7 +24,9 @@ Tabela de conteúdo
 ## Getting Started
 
 ## Pré-requisitos
-
+- Sistema operacional Windows, Linux ou macOS
+- MySQL Worbench
+[Clique aqui para realizar o download](https://downloads.mysql.com/archives/workbench/)
 ## Roadmap 
 
 ## Tecnologias
