@@ -10,12 +10,9 @@
 No Safra Dreams você abre a sua conta com a ajuda do nosso dreamy bot e já pode começar a sonhar. Você precisa apenas escolher um nome para o seu sonho, o valor e a data planejada. Depois é só decidir se você vai sonhar sozinho ou se vai querer um parceiro nessa jornada!
 Segurança é importante para a gente, um dreamer só poderá sacar todo o dinheiro do sonho compartilhado se todos os outros dreamers aprovarem a operação no aplicativo com a suas senhas pessoais. Caso algum dos dreamers desista da iniciativa ele pode retirar a sua parte aplicada a qualquer momento e todos os demais serão notificados da desistência. 
 
-
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/7032799/93025272-e7da4480-f5d2-11ea-9280-cace7cb3f390.png" width='40' height="50" />
 </p>
-
-
 
 Tabela de conteúdo
 ==================
@@ -35,7 +32,7 @@ Tabela de conteúdo
 
 ## O Projeto
 Safra Dreams é um projeto que foi desenvolvido durante o hackaton do processo seletivo Programa Technee Banco Safra 2020, cujo desafio proposto foi "Como podemos inovar e nos diferenciar criando experiência simples, transparente e instantâneas para os nossos clientes e parceiros, com soluções digitais disruptivas em cenários de crescimento exponencial?"
-Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a possibilidade de compartilhar sonhos com outras pessoas de forma personalizada, segura e pratica. 
+Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a possibilidade de compartilhar sonhos com outras pessoas de forma personalizada, segura e prática. 
 
 ### *Safra Dreams, porque sonhar juntos é sonhar mais*
 
