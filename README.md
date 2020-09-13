@@ -13,16 +13,12 @@
  <a href="#autor">Autor</a>
 </p>
 
-## Features
+<h1 align="left">Objetivo </a></h1>
 
-## Demonstração da Aplicação
+<h1 align="left">Roadmap </a></h1>
 
-## Pré-requisitos e como rodas a aplicação/testes
+<h1 align="left">Tecnologias </a></h1>
 
-## Tecnologias utilizadas
+<h1 align="left">Contribuição </a></h1>
 
-## Contribuição
-
-## Autores
-
-## Licença
+<h1 align="left">Autores </a></h1>
