@@ -39,7 +39,7 @@ Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a
 - Sistema operacional Windows, Linux ou macOS
 - MySQL Worbench
 [Clique aqui para realizar o download](https://downloads.mysql.com/archives/workbench/)
-- Delphi
+- Delphi (Versão utilizada: Delphi 10.2 - Tokyo)
 [Clique aqui para realizar o download](https://www.embarcadero.com/br/products/delphi)
 
 ## Roadmap 
