@@ -5,6 +5,7 @@
 <img src= "https://img.shields.io/github/stars/douglasakassaka/SafraDreams"/>
 <img src= "https://img.shields.io/github/license/douglasakassaka/SafraDreams"/>
 
+## Quem somos
 > O Safra Dreams é um aplicativo que oferece a possibilidade de compartilhar sonhos com outras pessoas de forma personalizada, segura e pratica.
 No Safra Dreams você abre a sua conta com a ajuda do nosso dreamy bot e já pode começar a sonhar. Você precisa apenas escolher um nome para o seu sonho, o valor e a data planejada. Depois é só decidir se você vai sonhar sozinho ou se vai querer um parceiro nessa jornada!
 Segurança é importante para a gente, um dreamer só poderá sacar todo o dinheiro do sonho compartilhado se todos os outros dreamers aprovarem a operação no aplicativo com a suas senhas pessoais. Caso algum dos dreamers desista da iniciativa ele pode retirar a sua parte aplicada a qualquer momento e todos os demais serão notificados da desistência. 
