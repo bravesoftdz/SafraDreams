@@ -1,7 +1,8 @@
-# Equipe 30 - Safra Dreams <img src = "https://user-images.githubusercontent.com/7032799/93025272-e7da4480-f5d2-11ea-9280-cace7cb3f390.png" width='147' height="170" align="right"/>
+# Equipe 30 - Safra Dreams <img src = "https://user-images.githubusercontent.com/7032799/93025272-e7da4480-f5d2-11ea-9280-cace7cb3f390.png" width='147' height="160" align="right"/>
 
-<h1 align="left">Descrição do projeto </a></h1>
-<p align="left">Descrever aqui o projeto</p>
+
+
+> Descrever aqui o projeto
 
 <h1 align="left">Tabela de conteúdos</a></h1>
 <p align="center">
