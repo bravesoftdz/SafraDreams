@@ -34,8 +34,6 @@ Tabela de conteúdo
 Safra Dreams é um projeto que foi desenvolvido durante o hackaton do processo seletivo Programa Technee Banco Safra 2020, cujo desafio proposto foi "Como podemos inovar e nos diferenciar criando experiência simples, transparente e instantâneas para os nossos clientes e parceiros, com soluções digitais disruptivas em cenários de crescimento exponencial?"
 Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a possibilidade de compartilhar sonhos com outras pessoas de forma personalizada, segura e prática. 
 
-### *Safra Dreams, porque sonhar juntos é sonhar mais*
-
 ## Pré-requisitos
 - Sistema operacional Windows, Linux ou macOS
 - MySQL Worbench
@@ -51,6 +49,8 @@ Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a
 ## Tecnologias
 
 ### Design da Solução
+
+No diagrama abaixo estão representadas as interações sequenciais e, também, dos atributos que serão coletados em cada etapa que o usuário interagir com o protótipo.
 
 <img src = "https://user-images.githubusercontent.com/7032799/93026808-2118b180-f5df-11ea-8426-0488d3a495a8.jpg" width="400" height="500" align="center"/>
 
