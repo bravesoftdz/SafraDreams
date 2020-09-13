@@ -7,15 +7,17 @@
 
 > Descrever aqui o projeto
 
-<h1 align="left">Tabela de conteúdos</a></h1>
-<p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
-</p>
+
+Tabela de conteúdo
+==================
+<!--ts-->
+  * [Descrição](#descricao)
+  * [Tabela de Conteudo](#tabela-de-conteudo)
+  * [Roadmap](#roadmap)
+  * [Tecnologias](#tecnologias)
+  * [Contribuição](#contribuicao)
+  * [Autores](#autores)
+<!--te-->
 
 <h1 align="left">Objetivo </a></h1>
 
