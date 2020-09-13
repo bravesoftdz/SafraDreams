@@ -34,6 +34,7 @@ Tabela de conteúdo
 <!--te-->
 
 ## O Projeto
+Safra Dreams é um projeto que foi desenvolvido durante o hackaton do processo seletivo Programa Technee Banco Safra 2020.
 
 ## Pré-requisitos
 - Sistema operacional Windows, Linux ou macOS
