@@ -20,6 +20,7 @@ Tabela de conteúdo
   - [Tecnologias](#tecnologias)
        - [Design da Solução](#design-solucao) 
        - [Estrutura Sequencial do Aplicativo](#estrutura-screen) 
+       - [Chatbot](#chat-bot)
        - [Infraestrutura](#infra)
        - [Banco de dados](#banco)
   - [Para Mais Informações](#further-information)
@@ -43,22 +44,18 @@ Tabela de conteúdo
 ## Tecnologias
 
 ### Design da Solução
-
-### Estrutura Sequencial do Aplicativo 
-
-### Infraestrutura
-
-### Banco de dados
-
-
 <img src = "https://user-images.githubusercontent.com/7032799/93026808-2118b180-f5df-11ea-8426-0488d3a495a8.jpg" width="400" height="500" align="center" />
+### Estrutura Sequencial do Aplicativo 
 <img src = "https://user-images.githubusercontent.com/7032799/93027292-4b1fa300-f5e2-11ea-99b2-1f85e8606bc3.JPG" width="800" height="800" align="center" />
-<img src = "https://user-images.githubusercontent.com/7032799/93027348-828e4f80-f5e2-11ea-8ddc-7d48d3d448da.JPG" width="800" height="500" align="center" />
-<img src = "https://user-images.githubusercontent.com/7032799/93027383-bff2dd00-f5e2-11ea-86e4-5b3ecb97edf6.JPG" />
+### Chatbot
 <img src = "https://user-images.githubusercontent.com/7032799/93027601-5d9adc00-f5e4-11ea-9025-5162f4875f77.png" />
+### Infraestrutura
+<img src = "https://user-images.githubusercontent.com/7032799/93027383-bff2dd00-f5e2-11ea-86e4-5b3ecb97edf6.JPG" />
+### Banco de dados
+<img src = "https://user-images.githubusercontent.com/7032799/93027348-828e4f80-f5e2-11ea-8ddc-7d48d3d448da.JPG" width="800" height="500" align="center" />
 
 ## Para Mais Informações
-
+- 
 
 ## Autores
 - Brendon Andrade
