@@ -32,11 +32,20 @@ Tabela de conteúdo
 [Clique aqui para realizar o download](https://www.embarcadero.com/br/products/delphi)
 
 ## Roadmap 
-1 - Design Thinking
-2 - Brainstorming
-3 - Canvas
+1) Design Thinking
+2) Brainstorming
+3) Canvas
 
 ## Tecnologias
+
+### Design da Solução
+
+### Screen 
+
+### Infraestrutura
+
+### Banco de dados
+
 
 <img src = "https://user-images.githubusercontent.com/7032799/93026808-2118b180-f5df-11ea-8426-0488d3a495a8.jpg" width=400 height=500 align='center' />
 <img src = "https://user-images.githubusercontent.com/7032799/93027292-4b1fa300-f5e2-11ea-99b2-1f85e8606bc3.JPG" width=800 height=800 align='center' />
@@ -48,5 +57,9 @@ Tabela de conteúdo
 
 
 ## Autores
-
+- Brendon Andrade
+- David Pega
+- Douglas Akassaka
+- Gabriel Agostini
+- Julio Gomes
 
