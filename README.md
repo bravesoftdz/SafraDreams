@@ -1,23 +1,23 @@
 # Logo
 
-# Título e Descrição
+## Título e Descrição
 
-# Badges
+## Badges
 
-# Status do Projeto
+## Status do Projeto
 
-# Tabela de Conteúdos
+## Tabela de Conteúdos
 
-# Features
+## Features
 
-# Demonstração da Aplicação
+## Demonstração da Aplicação
 
-# Pré-requisitos e como rodas a aplicação/testes
+## Pré-requisitos e como rodas a aplicação/testes
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 
-# Contribuição
+## Contribuição
 
-# Autores
+## Autores
 
-# Licença
+## Licença
