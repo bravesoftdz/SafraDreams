@@ -14,16 +14,16 @@ Segurança é importante para a gente, um dreamer só poderá sacar todo o dinhe
 Tabela de conteúdo
 ==================
 <!--ts-->
-  * [Getting Started](#getting-started)
-  * [Pré-requisitos](#pre-requisitos)
-  * [Roadmap](#roadmap)
-  * [Tecnologias](#tecnologias)
-      ** [Design da Solução](#design-solucao) 
-      ** [Estrutura Sequencial do Aplicativo](#estrutura-screen) 
-      ** [Infraestrutura](#infra)
-      ** [Banco de dados](#banco)
-  * [Para Mais Informações](#further-information)
-  * [Autores](#autores)
+  - [Getting Started](#getting-started)
+  - [Pré-requisitos](#pre-requisitos)
+  - [Roadmap](#roadmap)
+  - [Tecnologias](#tecnologias)
+       - [Design da Solução](#design-solucao) 
+       - [Estrutura Sequencial do Aplicativo](#estrutura-screen) 
+       - [Infraestrutura](#infra)
+       - [Banco de dados](#banco)
+  - [Para Mais Informações](#further-information)
+  - [Autores](#autores)
 <!--te-->
 
 ## Getting Started
