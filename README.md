@@ -31,6 +31,9 @@ Tabela de conteúdo
 [Clique aqui para realizar o download](https://www.embarcadero.com/br/products/delphi)
 
 ## Roadmap 
+1 - Design Thinking
+2 - Brainstorming
+3 - Canvas
 
 ## Tecnologias
 
