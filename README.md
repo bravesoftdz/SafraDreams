@@ -24,6 +24,8 @@ Tabela de conteúdo
 # Roadmap 
 
 <img src = "https://user-images.githubusercontent.com/7032799/93026808-2118b180-f5df-11ea-8426-0488d3a495a8.jpg" width='400' height="400" align="center"/>
+<img src = "https://user-images.githubusercontent.com/7032799/93027292-4b1fa300-f5e2-11ea-99b2-1f85e8606bc3.JPG" >
+
 
 # Tecnologias
 
