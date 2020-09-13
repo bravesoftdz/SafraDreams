@@ -18,6 +18,10 @@ Tabela de conteúdo
   * [Pré-requisitos](#pre-requisitos)
   * [Roadmap](#roadmap)
   * [Tecnologias](#tecnologias)
+      ** [Design da Solução](#design-solucao) 
+      ** [Estrutura Sequencial do Aplicativo](#estrutura-screen) 
+      ** [Infraestrutura](#infra)
+      ** [Banco de dados](#banco)
   * [Para Mais Informações](#further-information)
   * [Autores](#autores)
 <!--te-->
@@ -40,7 +44,7 @@ Tabela de conteúdo
 
 ### Design da Solução
 
-### Screen 
+### Estrutura Sequencial do Aplicativo 
 
 ### Infraestrutura
 
