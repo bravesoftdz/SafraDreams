@@ -163,7 +163,7 @@ begin
 
   lRestRequestHealthCheck.Execute;
 
-  lRestRequestHealthCheck.Response.StatusCode;
+  Result := lRestRequestHealthCheck.Response.StatusCode = 200;
 end;
 
 
