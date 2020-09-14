@@ -24,7 +24,7 @@ Tabela de conteúdo
   - [Tecnologias](#tecnologias)
        - [Design da Solução](#design-da-solucao) 
        - [Estrutura Sequencial do Aplicativo](#estrutura-sequencial-do-aplicativo ) 
-       - [Chatbot](#chat-bot)
+       - [Chatbot](#chatbot)
        - [Infraestrutura](#infraestrutura)
        - [Banco de dados](#banco-de-dados)
   - [Links Úteis](#links-uteis)
