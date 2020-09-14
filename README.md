@@ -45,11 +45,11 @@ Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a
 
 ## Roadmap 
 
+De forma a desenvolver uma solução escalável, aplicável, abrangente, inovador, com o uso e aplicação de tecnologia e por fim, com uma profundidade técnica, foi desenhado um roadmap de maneira a começar a jornada entendendo sobre a dor que queremos solucionar. Por meio do design thinking conseguimos gerar ideias e insigths para então abordar problemas. Em seguida foi feito um brainstorming em que foi utilizado a diversidade de pensamentos e experiências de modo a gerar soluções inovadoras. Com isso, a expectativa foi de gerar o maior número possível de ideias e possibilidades de modo que chegássemos a um consenso para solucionar problemas e possíveis bloqueios que poderiam impedir que o projeto seguisse adiante. 
 
 <img src = "https://user-images.githubusercontent.com/7032799/93035592-cc435e00-f613-11ea-8e2d-0ab9423f90c8.JPG" width="850" height="500" align="center"/>
 
 Canvas é uma linguagem compartilhada para *descrever*, *visualizar*, *avaliar* e *mudar* modelos de negócio.
-O Canvas é dividido em 9 blocos de construção.
 
 O primeiro bloco abordamos para quem queremos criar o valor e quem serão os nossos clientes mais importantes.
 O segundo bloco abordamos o que iremos oferecer para os nossos clientes e quais problemas estamos ajudando a resolver.
