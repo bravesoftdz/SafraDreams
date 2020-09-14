@@ -45,11 +45,9 @@ Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a
 
 ## Roadmap 
 
-De forma a desenvolver uma solução escalável, aplicável, abrangente, inovador, com o uso e aplicação de tecnologia e por fim, com uma profundidade técnica, foi desenhado um roadmap de maneira a começar a jornada entendendo sobre a dor que queremos solucionar. Por meio do design thinking conseguimos gerar ideias e insigths para então abordar problemas. Em seguida foi feito um brainstorming em que foi utilizado a diversidade de pensamentos e experiências de modo a gerar soluções inovadoras. Com isso, a expectativa foi de gerar o maior número possível de ideias e possibilidades de modo que chegássemos a um consenso para solucionar problemas e possíveis bloqueios que poderiam impedir que o projeto seguisse adiante. Com o objetivo de estruturar um modelo inovador foi utilizado o canvas, de modo a trazer praticidade e dinâmica na análise do modelo de negócio.
+De forma a desenvolver uma solução escalável, aplicável, abrangente, inovador, com o uso e aplicação de tecnologia e por fim, com uma profundidade técnica, foi desenhado um roadmap de maneira a começar a jornada entendendo sobre a dor que queremos solucionar. Por meio do design thinking conseguimos gerar ideias e insigths para então abordar problemas. Em seguida foi feito um brainstorming em que foi utilizado a diversidade de pensamentos e experiências de modo a gerar soluções inovadoras. Com isso, a expectativa foi de gerar o maior número possível de ideias e possibilidades de modo que chegássemos a um consenso para solucionar problemas e possíveis bloqueios que poderiam impedir que o projeto seguisse adiante. Com o objetivo de estruturar um modelo inovador foi utilizado o canvas, de modo a trazer praticidade e dinâmica na análise do modelo de negócio. De modo a validar o modelo desenvolvido, foi feita uma pesquisa de mercado para validar a solução idealizada. Uma vez feita essa etapa, começamos o desenvolvimento do protótipo e o gerenciamento do projeto foi realizado por meio de metodologias ágeis. 
 
 <img src = "https://user-images.githubusercontent.com/7032799/93035592-cc435e00-f613-11ea-8e2d-0ab9423f90c8.JPG" width="850" height="500" align="center"/>
-
-Canvas é uma linguagem compartilhada para *descrever*, *visualizar*, *avaliar* e *mudar* modelos de negócio.
 
 ## Tecnologias
 
