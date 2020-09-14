@@ -119,6 +119,6 @@ A estruturação e implementação do banco de dados relacional foi feita no MyS
 - [Brendon Andrade](https://www.linkedin.com/in/andradebrendon/)
 - [David Pega](https://www.linkedin.com/in/davideliasrp/?locale=en_US)
 - [Douglas Akassaka](https://www.linkedin.com/in/douglas-akassaka/)
-- [Gabriel Agostini](www.linkedin.com/in/gabriel-agostini-b57697144)
+- [Gabriel Agostini](www.linkedin.com/in/gabriel-agostini)
 - [Julio Gomes](https://www.linkedin.com/in/julio-cataldo/)
 
