@@ -92,7 +92,10 @@ No diagrama abaixo estão representadas as interações sequenciais e, também, 
 
 ### Banco de dados
 
+<img src = "https://user-images.githubusercontent.com/7032799/93033261-e11bf380-f60b-11ea-8faf-3f70f4a61962.JPG">
+
 <img src = "https://user-images.githubusercontent.com/7032799/93027348-828e4f80-f5e2-11ea-8ddc-7d48d3d448da.JPG" width="800" height="500" align="center"/>
+
 
 ## Links Úteis
 - APIs complementares disponíveis no GitHub do Safra
