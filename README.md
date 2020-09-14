@@ -18,16 +18,16 @@ Segurança é importante para a gente, um dreamer só poderá sacar todo o dinhe
 Tabela de conteúdo
 ==================
 <!--ts-->
-  - [O Projeto](#o-projeto)
-  - [Pré-requisitos](#pré-requisitos)
+  - [O Projeto](#getting-started)
+  - [Pré-requisitos](#pre-requisitos)
   - [Roadmap](#roadmap)
   - [Tecnologias](#tecnologias)
-       - [Design da Solução](#design-da-solução) 
-       - [Estrutura Sequencial do Aplicativo](#estrutura-sequencial-do-aplicativo ) 
-       - [Chatbot](#chatbot)
-       - [Infraestrutura](#infraestrutura)
-       - [Banco de dados](#banco-de-dados)
-  - [Links Úteis](#links-úteis)
+       - [Design da Solução](#design-solucao) 
+       - [Estrutura Sequencial do Aplicativo](#estrutura-screen) 
+       - [Chatbot](#chat-bot)
+       - [Infraestrutura](#infra)
+       - [Banco de dados](#banco)
+  - [Links Úteis](#links-uteis)
   - [Autores](#autores)
 <!--te-->
 
@@ -37,33 +37,32 @@ Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a
 
 ## Pré-requisitos
 - Sistema operacional Windows, Linux ou macOS
-- MySQL Worbench (1.1.8)
+- MySQL Worbench
 [Clique aqui para realizar o download](https://downloads.mysql.com/archives/workbench/)
 - Delphi (Versão utilizada: Delphi 10.2 - Tokyo)
 [Clique aqui para realizar o download](https://www.embarcadero.com/br/products/delphi)
 
 ## Roadmap 
 1) Design Thinking
+
 2) Brainstorming
+
 3) Canvas
 
+Canvas é uma linguagem compartilhada para *descrever*, *visualizar*, *avaliar* e *mudar* modelos de negócio.
+O Canvas é dividido em 9 blocos de construção.
+
+O primeiro bloco abordamos para quem queremos criar o valor e quem serão os nossos clientes mais importantes.
+O segundo bloco abordamos o que iremos oferecer para os nossos clientes e quais problemas estamos ajudando a resolver
+O terceiro bloco abordamos quais canais de comunicação, distribuição e venda usaremos para entregar a proposta de valor
+O quarto bloco abordamos que tipo de relacionmaneto queremos manter com os clientes? Como este relacionamento está integrado ao modelo de negócio.
+O quinto bloco de receitas abordamos quanto os clientes querem pagar pela nossa proposta de valor? Como os nossos clientes preferem pagar.
+O sexto bloco abordamos quais recursos são necessários para fazer o negócio funcionar e quais são os ativos mais importantes para o modelo de negócio.
+O sétimo bloco abordammos quais atividades importantes para o negócio funcionar e o que precisa ser feito para que o negócio opere com sucesso.
+O oitava bloco abordamos quais as parceirias necessárias para criar e entregar a proposta de valor ao cliente
+E por último, o nono bloco abordamos quais são os custos mais importantes relacionados a operação do modelo de negócio.
+
 ## Tecnologias
-
-### Documentação Técnica
-
-Para o desenvolvimento desse aplicativo para Android, utilizamos o Delphi na sua versão 10.2 Tokyo que gera código nativo para Android e iOS através da biblioteca FireMonkey, ou seja, não depende das bibliotecas desses sistemas.
-
-Por enquanto, por conta do curto tempo para desenvolver um app completo, o frontend e backend foram desenvolvidos em um monolito. Desta forma, a conexão com o banco de dados na nuvem não está sendo realizada e os dados estão mockados.
-
-A classe TIntegracaoAPIClass é a responsável por realizar a comunicação com as APIs disponibilizadas pelo Banco Safra. Abaixo é possível verificar uma breve descrição de cada método público desta classe.
-
-    class function AmbienteEstaAcessivel: boolean;         -> Retorna True caso o endpoint do Health Check retorne 200-OK, senão, retorna False;
-    class function RetornarChaveAuth2: string;             -> Realiza a autenticação OAuth2 e retorna o token recebido do endpoint;
-    class function RetornarDadosDaConta: TDadosDaConta;    -> Retorna um record com os dados da conta corrente;
-    class function RetornarSaldosDaConta: TSaldosDaConta;  -> Retorna um record com os saldos disponíveis na conta corrente; 
-	
-Para saber mais sobre a API e seus endpoints, acesse https://github.com/banco-safra/technee.
-
 
 ### Design da Solução
 
@@ -77,9 +76,6 @@ No diagrama abaixo estão representadas as interações sequenciais e, também, 
 
 ### Chatbot
 
-O chatbot foi desenvolvido para auxiliar no cadastro para abertura de conta, visando a facilidade e praticidade da mesma. A sua estruturação foi feita de forma que a interação com o usuário seja de forma fluida e interativa. 
-No diagrama de blocos abaixo, está estruturada a lógica sequencial em que ocorrerá o cadastro. 
-
 <img src = "https://user-images.githubusercontent.com/7032799/93027601-5d9adc00-f5e4-11ea-9025-5162f4875f77.png"/>
 
 ### Infraestrutura
@@ -88,10 +84,7 @@ No diagrama de blocos abaixo, está estruturada a lógica sequencial em que ocor
 
 ### Banco de dados
 
-A estruturação e implementação do banco de dados relacional foi feita no MySQL, ele foi escolhido na solução devido a disponibilidade e por ser um dos componentes centrais da maioria das aplicações públicas da Internet. No MySQL Workbench foram definidas as entidades, atributos e os relacionamento. Ou seja, criamos uma schema 'safradreams' contendo as tabelas Cliente, Extrato, Saldo, Sonho e SonhoLista, com seus respectivos atributos e relacionamentos, como pode ser observado no diagrama abaixo.
-
 <img src = "https://user-images.githubusercontent.com/7032799/93027348-828e4f80-f5e2-11ea-8ddc-7d48d3d448da.JPG" width="800" height="500" align="center"/>
-
 
 ## Links Úteis
 - APIs complementares disponíveis no GitHub do Safra
