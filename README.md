@@ -22,7 +22,7 @@ Tabela de conteúdo
   - [Pré-requisitos](#pré-requisitos)
   - [Roadmap](#roadmap)
   - [Tecnologias](#tecnologias)
-       - [Design da Solução](#design-da-solucao) 
+       - [Design da Solução](#design-da-solução) 
        - [Estrutura Sequencial do Aplicativo](#estrutura-sequencial-do-aplicativo ) 
        - [Chatbot](#chatbot)
        - [Infraestrutura](#infraestrutura)
