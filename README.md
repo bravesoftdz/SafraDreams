@@ -73,7 +73,16 @@ No diagrama abaixo estão representadas as interações sequenciais e, também, 
 
 <img src = "https://user-images.githubusercontent.com/7032799/93026808-2118b180-f5df-11ea-8426-0488d3a495a8.jpg" width="400" height="500" align="center"/>
 
-### Estrutura Sequencial do Aplicativo 
+### Estrutura Sequencial do Aplicativo
+
+A nossa solução começa com um uma tela inicial em que o usuario pode escolher entre duas opções: Abrir uma conta ou realizar login.
+
+1 - Abrir uma conta: O usuario é direcionado para o nosso chat bot onde o dreamy bot se apresenta e solicita os dados para a abertura da conta.
+2 - Login: Na tela de login o usuario insere as suas credencias (CPF/CNPJ e senha) para acessar o ambiente do Safra Dreams.
+2.1 - Na tela inicial o usuario tem o resumo das suas aplicações e pode navegar entre 3 submenus: 
+- Saldo: Onde ele poderá consultar o saldo da conta corrente e o extrato de movimentações.
+- Sonhos: Onde ele poderá criar, desistir e monitorar os seus sonhos compartilhados. Neste submenu o usuario terá acesso ao descritivo das metas tais como o prazo, valor investido e porcentagem para realizar o sonho.
+- Serviços: Onde ele poderá requisitar suporte junto ao Banco Safra e contratar outros produtos do banco.
 
 <img src = "https://user-images.githubusercontent.com/7032799/93027292-4b1fa300-f5e2-11ea-99b2-1f85e8606bc3.JPG" width="800" height="800" align="center"/>
 
@@ -85,8 +94,6 @@ No diagrama de blocos abaixo, está estruturada a lógica sequencial em que ocor
 <img src = "https://user-images.githubusercontent.com/7032799/93027601-5d9adc00-f5e4-11ea-9025-5162f4875f77.png"/>
 
 ### Infraestrutura
-
-De modo a dar maior segurança e confiabilidade no sistema, a comunicação do aplicativo com o servidor tem como intermediário a núvem, denominada na figura abaixo como a primeira camada, onde são realizadas as requisições e consultas, e logo em seguida tem-se o servidor na segunda camada.
 
 <img src = "https://user-images.githubusercontent.com/7032799/93027383-bff2dd00-f5e2-11ea-86e4-5b3ecb97edf6.JPG"/>
 
