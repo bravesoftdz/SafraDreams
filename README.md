@@ -46,7 +46,10 @@ Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a
 ## Roadmap 
 1) Design Thinking
 
+<img src = "https://user-images.githubusercontent.com/62389820/93034385-470a7a00-f610-11ea-9fbe-837368cad0a2.png" width="850" height="500" align="center"/>
+
 2) Brainstorming
+
 
 3) Canvas
 
