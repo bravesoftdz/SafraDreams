@@ -86,7 +86,7 @@ No diagrama de blocos abaixo, está estruturada a lógica sequencial em que ocor
 
 ### Infraestrutura
 
-De modo a dar maior segurança e confiabilidade no sistema, a comunicação do aplicativo com o servidor tem como intermediário a núve, denominada na figura abaixo como a primeira camada e logo em seguida tem-se o servidor na segunda camada.
+De modo a dar maior segurança e confiabilidade no sistema, a comunicação do aplicativo com o servidor tem como intermediário a núvem, denominada na figura abaixo como a primeira camada, onde são realizadas as requisições e consultas, e logo em seguida tem-se o servidor na segunda camada.
 
 <img src = "https://user-images.githubusercontent.com/7032799/93027383-bff2dd00-f5e2-11ea-86e4-5b3ecb97edf6.JPG"/>
 
