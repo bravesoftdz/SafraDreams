@@ -92,6 +92,8 @@ No diagrama abaixo estão representadas as interações sequenciais e, também, 
 
 ### Banco de dados
 
+A estruturação e implementação do banco de dados relacional foi feita no MySQL, ele foi escolhido na solução devido a disponibilidade e por ser um dos componentes centrais da maioria das aplicações públicas da Internet. No MySQL Workbench foram definidas as entidades, atributos e os relacionamento. Ou seja, criamos uma schema 'safradreams' contendo as tabelas Cliente, Extrato, Saldo, Sonho e SonhoLista, com seus respectivos atributos e relacionamentos, como pode ser observado no diagrama abaixo.
+
 <img src = "https://user-images.githubusercontent.com/7032799/93033261-e11bf380-f60b-11ea-8faf-3f70f4a61962.JPG">
 
 <img src = "https://user-images.githubusercontent.com/7032799/93027348-828e4f80-f5e2-11ea-8ddc-7d48d3d448da.JPG" width="800" height="500" align="center"/>
