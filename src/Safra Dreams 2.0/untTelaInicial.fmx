@@ -8,6 +8,7 @@ object frmTelaInicial: TfrmTelaInicial
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
   DesignerMasterStyle = 3
   object layoutFundo: TLayout
     Align = Client
@@ -864,6 +865,19 @@ object frmTelaInicial: TfrmTelaInicial
       XRadius = 3.000000000000000000
       YRadius = 3.000000000000000000
       OnClick = btnAcessarContaClick
+    end
+    object lblAPIInacessivel: TLabel
+      StyledSettings = [Family, Style]
+      Position.X = 40.000000000000000000
+      Position.Y = 308.000000000000000000
+      Size.Width = 305.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = claCrimson
+      Text = 'Aten'#231#227'o! A API do Safra est'#225' indispon'#237'vel.'
+      Visible = False
+      TabOrder = 3
     end
   end
 end

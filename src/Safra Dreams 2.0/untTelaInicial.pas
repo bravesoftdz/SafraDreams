@@ -13,8 +13,10 @@ type
     btnAbrirConta: TCornerButton;
     btnAcessarConta: TCornerButton;
     layoutFundo: TLayout;
+    lblAPIInacessivel: TLabel;
     procedure btnAcessarContaClick(Sender: TObject);
     procedure btnAbrirContaClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -28,7 +30,7 @@ implementation
 
 {$R *.fmx}
 
-uses untTelaLogin, untTelaCadastroChatBot;
+uses untTelaLogin, untTelaCadastroChatBot, untIntegracaoAPIClass;
 {$R *.LgXhdpiTb.fmx ANDROID}
 {$R *.LgXhdpiPh.fmx ANDROID}
 
@@ -46,6 +48,17 @@ var
 begin
   lfrmTelaLogin := TfrmTelaLogin.Create(nil);
   lfrmTelaLogin.Show;
+end;
+
+procedure TfrmTelaInicial.FormCreate(Sender: TObject);
+begin
+  if not TIntegracaoAPIClass.AmbienteEstaAcessivel then
+  begin
+    lblAPIInacessivel.Text := 'Atenção! A API do Safra está indisponível.';
+    lblAPIInacessivel.Visible := True;
+    btnAbrirConta.Enabled := False;
+    btnAcessarConta.Enabled := False;
+  end;
 end;
 
 end.

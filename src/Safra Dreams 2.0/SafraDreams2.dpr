@@ -19,7 +19,7 @@ uses
 
 begin
   Application.Initialize;
-  Application.CreateForm(TfrmTelaInicial, frmTelaInicial);
   Application.CreateForm(TdataModuleGeral, dataModuleGeral);
+  Application.CreateForm(TfrmTelaInicial, frmTelaInicial);
   Application.Run;
 end.
