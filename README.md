@@ -37,7 +37,7 @@ Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a
 
 ## Pré-requisitos
 - Sistema operacional Windows, Linux ou macOS
-- MySQL Worbench
+- MySQL Worbench (1.1.8)
 [Clique aqui para realizar o download](https://downloads.mysql.com/archives/workbench/)
 - Delphi (Versão utilizada: Delphi 10.2 - Tokyo)
 [Clique aqui para realizar o download](https://www.embarcadero.com/br/products/delphi)
@@ -69,7 +69,11 @@ No diagrama abaixo estão representadas as interações sequenciais e, também, 
 
 ### Banco de dados
 
+A estruturação e implementação do banco de dados relacional foi feita no MySQL. Foi criado uma schema 'safradreams' contendo as tabelas Cliente, Extrato, Saldo, Sonho e SonhoLista, com seus respectivos atributos e PK, como pode ser observado no diagrama abaixo.
+
 <img src = "https://user-images.githubusercontent.com/7032799/93027348-828e4f80-f5e2-11ea-8ddc-7d48d3d448da.JPG" width="800" height="500" align="center"/>
+
+
 
 ## Links Úteis
 - APIs complementares disponíveis no GitHub do Safra
