@@ -116,9 +116,9 @@ A estruturação e implementação do banco de dados relacional foi feita no MyS
 [Clique aqui para acessar](https://github.com/banco-safra/technee)
 
 ## Autores
-- Brendon Andrade
-- David Pega
-- Douglas Akassaka
-- Gabriel Agostini
-- Julio Gomes
+- [Brendon Andrade](https://www.linkedin.com/in/andradebrendon/)
+- [David Pega](https://www.linkedin.com/in/davideliasrp/?locale=en_US)
+- [Douglas Akassaka](https://www.linkedin.com/in/douglas-akassaka/)
+- [Gabriel Agostini](www.linkedin.com/in/gabriel-agostini-b57697144)
+- [Julio Gomes](https://github.com/banco-safra/technee)
 
