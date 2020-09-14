@@ -19,7 +19,7 @@ Tabela de conteúdo
 ==================
 <!--ts-->
   - [O Projeto](#o-projeto)
-  - [Pré-requisitos](#pre-requisitos)
+  - [Pré-requisitos](#pré-requisitos)
   - [Roadmap](#roadmap)
   - [Tecnologias](#tecnologias)
        - [Design da Solução](#design-da-solucao) 
@@ -27,7 +27,7 @@ Tabela de conteúdo
        - [Chatbot](#chatbot)
        - [Infraestrutura](#infraestrutura)
        - [Banco de dados](#banco-de-dados)
-  - [Links Úteis](#links-uteis)
+  - [Links Úteis](#links-úteis)
   - [Autores](#autores)
 <!--te-->
 
