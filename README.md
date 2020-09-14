@@ -70,7 +70,7 @@ O oitava bloco abordamos quais as parceirias necessárias para criar e entregar 
 
 E por último, o nono bloco abordamos quais são os custos mais importantes relacionados a operação do modelo de negócio.
 
-<img src = "https://user-images.githubusercontent.com/62389820/93033500-e9c0f980-f60c-11ea-99e2-5da6f294fd6c.JPG" width="400" height="500" align="center" />
+<img src = "https://user-images.githubusercontent.com/62389820/93033500-e9c0f980-f60c-11ea-99e2-5da6f294fd6c.JPG" width="850" height="500" align="center" />
 
 ## Tecnologias
 
