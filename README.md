@@ -120,5 +120,5 @@ A estruturação e implementação do banco de dados relacional foi feita no MyS
 - [David Pega](https://www.linkedin.com/in/davideliasrp/?locale=en_US)
 - [Douglas Akassaka](https://www.linkedin.com/in/douglas-akassaka/)
 - [Gabriel Agostini](www.linkedin.com/in/gabriel-agostini-b57697144)
-- [Julio Gomes](https://github.com/banco-safra/technee)
+- [Julio Gomes](https://www.linkedin.com/in/julio-cataldo/)
 
