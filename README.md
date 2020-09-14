@@ -49,8 +49,6 @@ De forma a desenvolver uma solução escalável, aplicável, abrangente, inovado
 
 <img src = "https://user-images.githubusercontent.com/7032799/93035592-cc435e00-f613-11ea-8e2d-0ab9423f90c8.JPG" width="850" height="500" align="center"/>
 
-Canvas é uma linguagem compartilhada para *descrever*, *visualizar*, *avaliar* e *mudar* modelos de negócio.
-
 ## Tecnologias
 
 ### Documentação Técnica
