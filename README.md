@@ -50,6 +50,7 @@ Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a
 
 2) Brainstorming
 
+<img src = "https://user-images.githubusercontent.com/62389820/93034630-16771000-f611-11ea-94c2-e5f33e1876bc.png" height="500" align="center"/>
 
 3) Canvas
 
