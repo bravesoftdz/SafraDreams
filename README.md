@@ -22,6 +22,7 @@ Tabela de conteúdo
   - [Pré-requisitos](#pre-requisitos)
   - [Roadmap](#roadmap)
   - [Tecnologias](#tecnologias)
+       - [Documentação Técnica](#documentação-técnica)
        - [Design da Solução](#design-solucao) 
        - [Estrutura Sequencial do Aplicativo](#estrutura-screen) 
        - [Chatbot](#chat-bot)
@@ -73,6 +74,21 @@ E por último, o nono bloco abordamos quais são os custos mais importantes rela
 <img src = "https://user-images.githubusercontent.com/62389820/93033500-e9c0f980-f60c-11ea-99e2-5da6f294fd6c.JPG" width="850" height="500" align="center" />
 
 ## Tecnologias
+
+### Documentação Técnica
+
+Para o desenvolvimento desse aplicativo para Android, utilizamos o Delphi na sua versão 10.2 Tokyo que gera código nativo para Android e iOS através da biblioteca FireMonkey, ou seja, não depende das bibliotecas desses sistemas.
+
+Por enquanto, por conta do curto tempo para desenvolver um app completo, o frontend e backend foram desenvolvidos em um monolito. Desta forma, a conexão com o banco de dados na nuvem não está sendo realizada e os dados estão mockados.
+
+A classe TIntegracaoAPIClass é a responsável por realizar a comunicação com as APIs disponibilizadas pelo Banco Safra. Abaixo é possível verificar uma breve descrição de cada método público desta classe.
+
+    class function AmbienteEstaAcessivel: boolean;         -> Retorna True caso o endpoint do Health Check retorne 200-OK, senão, retorna False;
+    class function RetornarChaveAuth2: string;             -> Realiza a autenticação OAuth2 e retorna o token recebido do endpoint;
+    class function RetornarDadosDaConta: TDadosDaConta;    -> Retorna um record com os dados da conta corrente;
+    class function RetornarSaldosDaConta: TSaldosDaConta;  -> Retorna um record com os saldos disponíveis na conta corrente; 
+
+Para saber mais sobre a API e seus endpoints, acesse https://github.com/banco-safra/technee.
 
 ### Design da Solução
 
