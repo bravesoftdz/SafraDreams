@@ -25,7 +25,7 @@ Tabela de conteúdo
        - [Design da Solução](#design-solucao) 
        - [Estrutura Sequencial do Aplicativo](#estrutura-screen) 
        - [Chatbot](#chat-bot)
-       - [Infraestrutura](#infra)
+       - [Infraestrutura](#infraestrutura)
        - [Banco de dados](#banco)
   - [Links Úteis](#links-uteis)
   - [Autores](#autores)
