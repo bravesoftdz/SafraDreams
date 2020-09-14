@@ -58,21 +58,13 @@ Canvas é uma linguagem compartilhada para *descrever*, *visualizar*, *avaliar* 
 O Canvas é dividido em 9 blocos de construção.
 
 O primeiro bloco abordamos para quem queremos criar o valor e quem serão os nossos clientes mais importantes.
-
 O segundo bloco abordamos o que iremos oferecer para os nossos clientes e quais problemas estamos ajudando a resolver.
-
 O terceiro bloco abordamos quais canais de comunicação, distribuição e venda usaremos para entregar a proposta de valor.
-
 O quarto bloco abordamos que tipo de relacionmaneto queremos manter com os clientes e como este relacionamento está integrado ao modelo de negócio.
-
 O quinto bloco de receitas abordamos quanto os clientes querem pagar pela nossa proposta de valor e como os nossos clientes preferem pagar.
-
 O sexto bloco abordamos quais recursos são necessários para fazer o negócio funcionar e quais são os ativos mais importantes para o modelo de negócio.
-
 O sétimo bloco abordammos quais atividades importantes para o negócio funcionar e o que precisa ser feito para que o negócio opere com sucesso.
-
 O oitava bloco abordamos quais as parceirias necessárias para criar e entregar a proposta de valor ao cliente.
-
 E por último, o nono bloco abordamos quais são os custos mais importantes relacionados a operação do modelo de negócio.
 
 <img src = "https://user-images.githubusercontent.com/62389820/93033500-e9c0f980-f60c-11ea-99e2-5da6f294fd6c.JPG" width="850" height="500" align="center" />
