@@ -75,13 +75,13 @@ No diagrama abaixo estão representadas as interações sequenciais e, também, 
 
 ### Estrutura Sequencial do Aplicativo 
 
-A nossa solução começa com um uma tela inicial em que o usuario pode escolher entre duas opções: Abrir uma conta ou realizar login.<br />
+A nossa solução começa com um uma tela inicial em que o usuário pode escolher entre duas opções: Abrir uma conta ou realizar login.<br />
 
-1 - Abrir uma conta: O usuario é direcionado para o nosso chat bot onde o dreamy bot se apresenta e solicita os dados para a abertura da conta.<br />
-2 - Login: Na tela de login o usuario insere as suas credencias (CPF/CNPJ e senha) para acessar o ambiente do Safra Dreams.<br />
-2.1 - Na tela inicial o usuario tem o resumo das suas aplicações e pode navegar entre 3 submenus: <br />
+1 - Abrir uma conta: O usuário é direcionado para o nosso chat bot onde o dreamy bot se apresenta e solicita os dados para a abertura da conta.<br />
+2 - Login: Na tela de login o usuário insere as suas credencias (CPF/CNPJ e senha) para acessar o ambiente do Safra Dreams.<br />
+2.1 - Na tela inicial o usuário tem o resumo das suas aplicações e pode navegar entre 3 submenus: <br />
 - Saldo: Onde ele poderá consultar o saldo da conta corrente e o extrato de movimentações.
-- Sonhos: Onde ele poderá criar, desistir e monitorar os seus sonhos compartilhados. Neste submenu o usuario terá acesso ao descritivo das metas tais como o prazo, valor investido e porcentagem para realizar o sonho.
+- Sonhos: Onde ele poderá criar, desistir e monitorar os seus sonhos compartilhados. Neste submenu o usuário terá acesso ao descritivo das metas tais como o prazo, valor investido e porcentagem para realizar o sonho.
 - Serviços: Onde ele poderá requisitar suporte junto ao Banco Safra e contratar outros produtos do banco.
 
 <img src = "https://user-images.githubusercontent.com/7032799/93027292-4b1fa300-f5e2-11ea-99b2-1f85e8606bc3.JPG" width="800" height="800" align="center"/>
