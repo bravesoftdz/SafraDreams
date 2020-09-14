@@ -49,6 +49,22 @@ Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a
 
 ## Tecnologias
 
+### Documentação Técnica
+
+Para o desenvolvimento desse aplicativo para Android, utilizamos o Delphi na sua versão 10.2 Tokyo que gera código nativo para Android e iOS através da biblioteca FireMonkey, ou seja, não depende das bibliotecas desses sistemas.
+
+Por enquanto, por conta do curto tempo para desenvolver um app completo, o frontend e backend foram desenvolvidos em um monolito. Desta forma, a conexão com o banco de dados na nuvem não está sendo realizada e os dados estão mockados.
+
+A classe TIntegracaoAPIClass é a responsável por realizar a comunicação com as APIs disponibilizadas pelo Banco Safra. Abaixo é possível verificar uma breve descrição de cada método público desta classe.
+
+    class function AmbienteEstaAcessivel: boolean;         -> Retorna True caso o endpoint do Health Check retorne 200-OK, senão, retorna False;
+    class function RetornarChaveAuth2: string;             -> Realiza a autenticação OAuth2 e retorna o token recebido do endpoint;
+    class function RetornarDadosDaConta: TDadosDaConta;    -> Retorna um record com os dados da conta corrente;
+    class function RetornarSaldosDaConta: TSaldosDaConta;  -> Retorna um record com os saldos disponíveis na conta corrente; 
+	
+Para saber mais sobre a API e seus endpoints, acesse https://github.com/banco-safra/technee.
+
+
 ### Design da Solução
 
 No diagrama abaixo estão representadas as interações sequenciais e, também, dos atributos que serão coletados em cada etapa que o usuário interagir com o protótipo.
