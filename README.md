@@ -18,15 +18,15 @@ Segurança é importante para a gente, um dreamer só poderá sacar todo o dinhe
 Tabela de conteúdo
 ==================
 <!--ts-->
-  - [O Projeto](#getting-started)
+  - [O Projeto](#o-projeto)
   - [Pré-requisitos](#pre-requisitos)
   - [Roadmap](#roadmap)
   - [Tecnologias](#tecnologias)
-       - [Design da Solução](#design-solucao) 
-       - [Estrutura Sequencial do Aplicativo](#estrutura-screen) 
+       - [Design da Solução](#design-da-solucao) 
+       - [Estrutura Sequencial do Aplicativo](#estrutura-sequencial-do-aplicativo ) 
        - [Chatbot](#chat-bot)
        - [Infraestrutura](#infraestrutura)
-       - [Banco de dados](#banco)
+       - [Banco de dados](#banco-de-dados)
   - [Links Úteis](#links-uteis)
   - [Autores](#autores)
 <!--te-->
