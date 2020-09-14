@@ -44,15 +44,9 @@ Tendo em vista isso, foi criado Safra Dreams, que é um aplicativo que oferece a
 [Clique aqui para realizar o download](https://www.embarcadero.com/br/products/delphi)
 
 ## Roadmap 
-1) Design Thinking
 
-<img src = "https://user-images.githubusercontent.com/62389820/93034385-470a7a00-f610-11ea-9fbe-837368cad0a2.png" width="850" height="500" align="center"/>
 
-2) Brainstorming
-
-<img src = "https://user-images.githubusercontent.com/62389820/93034630-16771000-f611-11ea-94c2-e5f33e1876bc.png" height="500" align="center"/>
-
-3) Canvas
+<img src = "https://user-images.githubusercontent.com/7032799/93035592-cc435e00-f613-11ea-8e2d-0ab9423f90c8.JPG" width="850" height="500" align="center"/>
 
 Canvas é uma linguagem compartilhada para *descrever*, *visualizar*, *avaliar* e *mudar* modelos de negócio.
 O Canvas é dividido em 9 blocos de construção.
@@ -66,8 +60,6 @@ O sexto bloco abordamos quais recursos são necessários para fazer o negócio f
 O sétimo bloco abordammos quais atividades importantes para o negócio funcionar e o que precisa ser feito para que o negócio opere com sucesso.
 O oitava bloco abordamos quais as parceirias necessárias para criar e entregar a proposta de valor ao cliente.
 E por último, o nono bloco abordamos quais são os custos mais importantes relacionados a operação do modelo de negócio.
-
-<img src = "https://user-images.githubusercontent.com/62389820/93033500-e9c0f980-f60c-11ea-99e2-5da6f294fd6c.JPG" width="850" height="500" align="center" />
 
 ## Tecnologias
 
