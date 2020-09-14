@@ -61,6 +61,9 @@ No diagrama abaixo estão representadas as interações sequenciais e, também, 
 
 ### Chatbot
 
+O chatbot foi desenvolvido para auxiliar no cadastro para abertura de conta, visando a facilidade e praticidade da mesma. A sua estruturação foi feita de forma que a interação com o usuário seja de forma fluida e interativa. 
+No diagrama de blocos abaixo, está estruturada a lógica sequencial em que ocorrerá o cadastro. 
+
 <img src = "https://user-images.githubusercontent.com/7032799/93027601-5d9adc00-f5e4-11ea-9025-5162f4875f77.png"/>
 
 ### Infraestrutura
